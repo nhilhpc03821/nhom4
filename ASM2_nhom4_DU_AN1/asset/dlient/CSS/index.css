@@ -1,0 +1,251 @@
+/* index */
+.nav-01{ 
+    width: 1500px;  
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    font-size: 16px;
+    border-radius: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.nav-01>li {
+    float: left;
+    margin-right: 49px;  
+    margin-top: 8px;
+}
+
+.nav-01>li>a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+.nav-01>li>a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+.nav-01 li {
+    position: relative;
+    list-style: none;   
+}
+.nav-01 li a {  
+    font-weight: bold;      
+    padding: 10px;
+    line-height: 5px;
+    display: inline-block;
+    margin-left: 59px;
+}
+.nav-01 .sub-menu {
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 5px;
+    width: 100px;   
+    margin-left: 15px;
+}
+
+.nav-01 li:hover>.sub-menu {
+    display: block;
+    color: rgb(255, 255, 255);
+}
+
+.nav-01>li>.sub-menu {
+    
+    top: 10px;
+    left: -25px;
+}
+.nav-01>li>.sub-menu {
+    
+    top: 0px;
+    left: -20px;
+}
+
+.nav-01 a:hover {
+    color: rgb(38, 83, 247);
+}
+
+/* index end */
+
+/* San pham */
+div.gallery {
+    margin: 20px;
+    border: 1px solid rgb(204, 204, 204);
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+ 
+/* San pham end */
+.menu{
+    margin-left: 100px;
+    
+}
+.chu_01{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+.chu_11{
+ margin-left: 500px;
+}
+.thanh_ngang{
+    width: 1200px;
+    margin: 20px;
+    height: 5px;
+    background-color: black;
+}
+.gallery:hover{
+    color: rgb(54, 150, 223);
+}
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 200px;
+    
+}
+.gioi_thieu{
+    width: 500px;
+    height: 550px;
+    
+    margin-left: 140px;
+}
+.chu_2{
+    font-size: 19px;
+}
+.gioi_thieu_01{
+    width: 500px;
+    height: 550px;
+    margin-top: -550px;
+    margin-left: 880px;
+}
+.chu_02{
+    font-size: 35px;
+}
+.sticky{
+  width: 700px;
+}
+/* giới thiệu */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+    margin-left: 40px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  /* end */
+
+  /* fooder */
+  .fooder{
+    background-color:  rgb(255, 255, 255);
+    height: 300px;
+}
+.intro_01{
+    font-size: 20px;
+}   
+.fooder_into{
+    margin-left: 12px;
+    margin-top: -95px;
+}
+.fooder_into_01{
+    margin-left: 550px;
+    margin-top: -188px;
+}
+.fooder_into_02{
+    margin-left: 1000px;
+    margin-top: -200px;
+}
+.into_02{
+    margin-left: 50px;
+}
+.bando{
+    margin-left: 1200px;
+    margin-top: -55px;
+}
+.banh{
+    font-size: 18px;
+}
+.chu_fooder{
+  color: rgb(207, 10, 10);
+  font-size: 18px;
+  margin-left: 1100px;
+  margin-top: -55px;
+}
+/* fooder end */
+
+/* menu */
+.into_1{
+  margin-left: 50px;
+}
+.into_2{
+  margin-left: 50px;
+}
+.anh_hotel{
+  margin-left: 750px;
+  margin-top: -250px;
+}
+
+/* menu end */
