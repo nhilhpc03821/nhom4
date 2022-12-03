@@ -15,23 +15,23 @@
     </head>
     <body>
     
-        <div class="index">
-            <ul class="nav-01">
-                <li><a href="index.html">Trang chủ</a></li>           
-    
-                <li><a href="About.html"> About </a></li>
-    
-                <li><a href="Phong.html">Phòng</a></li>
-    
-                <li><a href="DichVu.html"> Dịch Vụ </a></li>
-    
-                <li><a href="LienHe.html">Liên Hệ</a></li>
-    
-                <li><a href="DangNhap.html">Đăng Nhập</a></li>
-    
-                <li><a href="DangKy.html">Đăng Ký</a></li>
-            </ul>
-        </div>
+    <div class="index">
+        <ul class="nav-01">
+            <li><a href="index.php">Trang chủ</a></li>           
+
+            <li><a href="About.php"> About </a></li>
+
+            <li><a href="Phong.php">Phòng</a></li>
+
+            <li><a href="DichVu.php"> Dịch Vụ </a></li>
+
+            <li><a href="LienHe.php">Liên Hệ</a></li>
+
+            <li><a href="DangNhap.php">Đăng Nhập</a></li>
+
+            <li><a href="DangKy.php">Đăng Ký</a></li>
+        </ul>
+    </div>
 
        
     <div class="content-wrapper">

@@ -16,23 +16,23 @@
     <link href="../asset/dlient/JS/sanpham_1.js" rel="stylesheet">
 </head>
 <body>
-  <div class="index">
-    <ul class="nav-01">
-        <li><a href="index.html">Trang chủ</a></li>           
+<div class="index">
+        <ul class="nav-01">
+            <li><a href="index.php">Trang chủ</a></li>           
 
-        <li><a href="About.html"> About </a></li>
+            <li><a href="About.php"> About </a></li>
 
-        <li><a href="Phong.html">Phòng</a></li>
+            <li><a href="Phong.php">Phòng</a></li>
 
-        <li><a href="DichVu.html"> Dịch Vụ </a></li>
+            <li><a href="DichVu.php"> Dịch Vụ </a></li>
 
-        <li><a href="LienHe.html">Liên Hệ</a></li>
+            <li><a href="LienHe.php">Liên Hệ</a></li>
 
-        <li><a href="DangNhap.html">Đăng Nhập</a></li>
+            <li><a href="DangNhap.php">Đăng Nhập</a></li>
 
-        <li><a href="DangKy.html">Đăng Ký</a></li>
-    </ul>
-</div>
+            <li><a href="DangKy.php">Đăng Ký</a></li>
+        </ul>
+    </div>
     
 <div class="img">
 <center>
@@ -41,21 +41,26 @@
 <img>
 </div>
 
-    <center>
+    
         <hr class="thanh_ngang">
         <br/>
         <div class="wrapper">
           <div class="product-img">
-            <img src="../asset/dlient/img/guong_doi_1.jpg" height="460" width="427">
+            <img src="../asset/dlient/img/guong_doi_2.jpg" height="310" width="427">
           </div>
           <div class="product-info">
             <div class="product-text">
-              <h1>Trà Đào Latter</h1>
-              <h2>Peach Tea Latter</h2>
-              <p>Trà đào là thức uống giải khát ưa thích của giới trẻ, đặc biệt là trong mùa hè. Món trà đào đào đúng chuẩn là thức uống giải nóng và thanh nhiệt cực hiệu quả và nhanh chóng mang đến cho bạn cảm giác mát lạnh và sảng khoái.</p>
+              <h1>Phòng Đơn VIP1 hai giường</h1>
+              
+              <p>Include: Pure Water, Coffee, Wifi, Tax, Service.<br/>
+
+                Tận hưởng kỳ nghỉ của bạn tại Khách Sạn Á Châu, dịch vụ cao cấp,
+                 sạch sẻ sang trọng bật nhất tại Cần Thơ
+                
+</p>
             </div>
             <div class="product-price-btn"><br/><br/><br/>
-              <p><span>GIÁ : 20.000</span>VNĐ</p>
+              <p><span>GIÁ : 1.500.000</span>VNĐ/đêm</p><br/>
               <button  type="button">buy now</button>
             </div>
           </div>
