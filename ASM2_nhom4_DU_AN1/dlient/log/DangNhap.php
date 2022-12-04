@@ -8,27 +8,27 @@
    <title> Đăng Nhập </title>
    <script src="../asset/dlient/JS/index.js"></script>
 
-   <link href="../asset/dlient/CSS/index.css" rel="stylesheet">
+   <link href="../../asset/dlient/CSS/index.css" rel="stylesheet">
 
    <link href="../asset/dlient/CSS/sanpham.css" rel="stylesheet">
 
-   <link href="../asset/dlient/CSS/dangnhap.css" rel="stylesheet">
+   <link href="../../asset/dlient/CSS//dangnhap.css" rel="stylesheet">
 
 </head>
 
 <body>
+   <!-- nav -->
 
    <div class="index">
       <ul class="nav-01">
-         <li><a href="index.php">Trang chủ</a></li>
+         <li><a href="../../dlient/index.php">Trang chủ</a></li>
 
-         <li><a href="About.php"> About </a></li>
+         <li><a href="../../dlient/about.php"> Giới Thiệu </a></li>
 
-         <li><a href="Phong.php">Phòng</a></li>
+         <li><a href="../../dlient/Phong.php">Phòng</a></li>
 
-         <li><a href="DichVu.php"> Dịch Vụ </a></li>
 
-         <li><a href="LienHe.php">Liên Hệ</a></li>
+         <li><a href="../../dlient/LienHe.php">Liên Hệ</a></li>
 
          <li><a href="DangNhap.php">Đăng Nhập</a></li>
 
@@ -36,7 +36,6 @@
       </ul>
    </div>
 
-   <br />
 
    <div class="overlay">
       <!-- LOGN IN FORM by Omar Dsoky -->
@@ -101,7 +100,7 @@
       </form>
    </div>
 
-   <script src="../asset/dlient/JS/loginADMỊN.js"></script>
+   <script src="../asset/dlient/JS/loginADMIN.js"></script>
    <br /><br /><br /><br /><br /><br /><br /><br />
    <br /><br /><br /><br /><br /><br /><br /><br />
 
