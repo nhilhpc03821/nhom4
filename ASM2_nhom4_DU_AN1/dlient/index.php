@@ -27,6 +27,11 @@ $listloai = load_list();
 
   <!-- <link href="../asset/dlient/CSS/sanpham.css" rel="stylesheet"> -->
   <!-- >>>>>>> 59fa914488ef0f407646907966f1bce90f1f2907 -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+
 </head>
 
 <body>
@@ -63,14 +68,14 @@ $listloai = load_list();
   <!-- end show -->
 
   <!-- About Start -->
-  <div class="About_01">
+  <div class="about">
     <center>
-      <h2 class="chu_01"> About The universe </h2>
+      <h2 class="chu_01"> About THE UNIVERSE </h2>
     </center>
     <br />
     <div class="menu">
-      <h3 class="into_1">Chào mừng đến với The universe</h3>
-      <p class="into_2">The universe với các phòng biệt thự và bungalow được trang bị đầy đủ tiện nghi,<br /> không
+      <h3 class="into_1">Chào mừng đến với THE UNIVERSE</h3>
+      <p class="into_2">THE UNIVERSE với các phòng biệt thự và bungalow được trang bị đầy đủ tiện nghi,<br /> không
         gian bên trong được bài trí theo phong cách sang trọng pha trộn những nét<br /> truyền
         thống của người Việt và những nét hiện đại của phương Tây. <br />
         <br />
@@ -82,12 +87,21 @@ $listloai = load_list();
       <img class="anh_hotel" src="../asset/dlient/img/hotel.jpg">
     </div>
   </div>
+
+
+
+
+
   <?php foreach ($listloai as $loai_phong) :
     if ($loai_phong['ma_loai'] != 15) :
       $danh_sach_phong = load_listhh("", $loai_phong['ma_loai']);
 
       if (!empty($danh_sach_phong)) :
   ?>
+
+
+
+
         <hr class="thanh_ngang">
         <h2 class="tieu-de text-center"><?= $loai_phong['ten_loai'] ?> </h2>
 
@@ -98,15 +112,18 @@ $listloai = load_list();
             <div class="san-pham">
               <div class="gallery">
                 <div class="hinh-anh">
-                  <a href="../dlient/sanpham_1.php">
+                  <a href="../dlient/chitietphong.php">
                     <?php if ($hinhpath != '../upload/') : ?>
                       <img src="<?= $hinhpath ?>" alt="Cinque Terre" width="600" height="200">
                     <?php endif; ?>
                   </a>
                 </div>
 
-                <div class="desc"><a href="../dlient/sanpham_1.php"><b><?= $phong['ten_hh'] ?></b></a></div>
-                <div class="desc"><a href="../dlient/sanpham_1.php"><b><?= number_format($phong['don_gia'], 0, ',', '.') ?> vnd</b></a></div>
+
+
+
+                <div class="desc"><a href="../dlient/chitietphong.php"><b><?= $phong['ten_hh'] ?></b></a></div>
+                <div class="desc"><a href="../dlient/chitietphong.php"><b><?= number_format($phong['don_gia'], 0, ',', '.') ?> vnd</b></a></div>
               </div>
             </div>
         <?php
@@ -204,7 +221,7 @@ $listloai = load_list();
           <div class="card">
             <img src="../asset/dlient/img/gioi_thieu3.jpg" alt="Jane" style="width:60%">
             <div class="container">
-              <h2> Khách sạn The Universe</h2>
+              <h2> Khách sạn The UNIVERSE</h2>
               <p>Với chất lượng chính hãng của máy pha cafe các khách hàng có thể an tâm
                 thưởng thức, có giấy chứng nhận và có thể quét mã để quý khách an tâm khi
                 thưởng thức dồ uống tại quán</p>
@@ -242,48 +259,118 @@ $listloai = load_list();
       </div>
     </center>
 
-    <br /><br /><br /><br /><br /><br /><br /><br />
 
 
-    <div class="fooder">
 
-      <div class="fooder_into">
-        <h5 class="intro_01"> Liên Lạc </h5>
-        <p> <img src="../asset/dlient/img/icon/địa_chỉ.png" width="20px"> <b>288 Đ. Nguyễn Văn Linh, Hưng Lợi, Ninh Kiều, Cần Thơ, Việt Nam </b> </p>
-        <p> <img src="../asset/dlient/img/icon/phone.png" width="20px"><b>+094 729 1927</b></p>
-        <p> <img src="../asset/dlient/img/icon/gmail.png" width="20px"> <b>nhilhpc03821@fpt.edu.vn</b></p>
-        <p> <img src="../asset/dlient/img/icon/gmail.png" width="20px"> <b>nhilhpc03821@fpt.edu.vn</b></p>
+    <footer class="bg-dark text-white pt-5 pb-4">
+
+      <div class="container text-center text-md-left">
+
+        <div class="row text-center text-md-left">
+
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">VỀ CHÚNG TÔI</h5>
+            <p>Với mục tiêu đặt khách hàng lên hàng đầu, vì vậy chúng tôi luôn phục vụ và quan tâm khách hàng nhanh nhất có thể. </p>
+
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">VỀ CHÚNG TÔI</h5>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;"> Cách đặt chỗ</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;"> Liên hệ chúng tôi</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;"> Trợ giúp</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;"> Tuyển dụng</a>
+            </p>
+
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">HỔ TRỢ</h5>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;"> Tài Khoản</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Khuyến Mãi</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;"> Phương Thức Thanh Toán</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;"> Chính Sách Về Quyền Riêng Tư </a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">LIÊN HỆ</h5>
+            <p>
+              <i class="fas fa-home mr-3"></i>288, Nguyễn Văn Linh, An Khánh, Ninh Kiều, Cần Thơ
+            </p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i>hanvnpc03858@fpt.edu.vn
+            </p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i>nhilhpc03821@fpt.edu.vn
+            </p>
+            <p>
+              <i class="fas fa-phone mr-3"></i>+84 857198354
+            </p>
+
+          </div>
+
+        </div>
+
+        <hr class="mb-4">
+
+        <div class="row align-items-center">
+
+          <div class="col-md-7 col-lg-8">
+            <p> Copyright ©2020 All rights reserved by:
+              <a href="#" style="text-decoration: none;">
+                <strong class="text-warning">Ngọc Hân hahahahahaha</strong>
+              </a>
+            </p>
+
+          </div>
+
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/ngochaan136" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.youtube.com/watch?v=v_igBq7fAMs" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
 
-      <div class="fooder_into_01">
-        <h5 class="intro_01"> Dịch Vụ Của Của Chúng Tôi </h5>
-        <p class="banh"><img src="../asset/dlient/img/icon/right-arrow.png" width="10px"> <b> Đặt phòng tại trang web </b></p>
-        <p class="banh"><img src="../asset/dlient/img/icon/right-arrow.png" width="10px"> <b> Vocher khuyến mãi giảm 5% vào tháng 11 </b></p>
-        <p class="banh"><img src="../asset/dlient/img/icon/right-arrow.png" width="10px"> <b> GIảm 5% cho khách hàng thân thiết </b></p>
-        <p class="banh"><img src="../asset/dlient/img/icon/right-arrow.png" width="10px"> <b> Thanh toán bằng thẻ hoặc chuyển khoản </b></p>
-      </div>
+    </footer>
 
-      <div class="fooder_into_02">
-        <h2 class="intro_2"> Mạng xã hội </h2>
-        <img class="icon" src="../asset/dlient/img/icon/facebook.png" width="30px">
-        <img class="icon" src="../asset/dlient/img/icon/twitter.png" width="30px">
-        <img class="icon" src="../asset/dlient/img/icon/instagram.png" width="30px">
-        <img class="icon" src="../asset/dlient/img/icon/youtube.png" width="30px">
-      </div>
 
-      <iframe class="bando" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.871231804129!2d105.75541541476494!3d10.027483392832327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a088476bafffdf%3A0x4da67960eb05332d!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIFRo4buxYyBIw6BuaCBGUFQgUG9seXRlY2huaWMgQ-G6p24gVGjGoQ!5e0!3m2!1svi!2s!4v1665920212911!5m2!1svi!2s" width="300" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div>
-
-      </div>
-      <br />
-      <center>
-        <hr class="thanhngang">
-      </center>
-      <h3><img src="../asset/dlient/img/Icon/copyright.png" width="16px"> Trang Website Lê Hồng Nhi , Mọi quyền được bảo lưu.</h3>
-
-      <h4 class="chu_fooder">Được thiết kế bởi Lê Hồng Nhi <br />
-        Được phân phối bởi: Võ Ngọc Hân</h4>
-    </div>
 
 </body>
 
