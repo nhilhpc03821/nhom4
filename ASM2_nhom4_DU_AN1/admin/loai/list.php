@@ -26,16 +26,16 @@
                 $xoaloai = "index.php?act=xoaloai&maloai=" . $ma_loai;
 
                 echo '
-          <tr>
-        
-          <td>' . $ma_loai . '</td>
-          <td>' . $ten_loai . '</td>
-          <td>
-           <a href="' . $sualoai . '" class="suabtn"><input type="button" value="Sửa"></a>
-           <a href="' . $xoaloai . '" class="xoabtn"><input type="button" value="Xóa"></a>
-          </td>
-          </tr>
-          ';
+                    <tr>
+                  
+                    <td>' . $ma_loai . '</td>
+                    <td>' . $ten_loai . '</td>
+                    <td>
+                    <a href="' . $sualoai . '" class="suabtn"><input type="button" value="Sửa"></a>
+                    <a href="' . $xoaloai . '" class="xoabtn"><input type="button" value="Xóa"></a>
+                    </td>
+                    </tr>
+                    ';
               }
               ?>
 
