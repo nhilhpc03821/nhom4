@@ -10,7 +10,7 @@
 
     <link href="../asset/dlient/CSS/index.css" rel="stylesheet">
   
-    <link href="../asset/dlient/CSS/sanpham.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -69,7 +69,7 @@
     <br/>
 <div class="menu">
    <div class="gallery">
-       <a href="../dlient/sanpham_1.html" >
+       <a href="../dlient/sanpham_1.php" >
          <img  src="../asset/dlient/img/room_VIP_1.jpg" alt="Cinque Terre" width="600" height="200">
        </a>
        <div class="desc"><b>Phòng Đơn VIP1</b></div>
@@ -77,7 +77,7 @@
      </div>
      
      <div class="gallery">
-      <a href="../dlient/sanpham_2.html" >
+      <a href="../dlient/sanpham_2.php" >
          <img  src="../asset/dlient/img/room_VIP_2.jpg" alt="Forest" width="600" height="400">
        </a>
        <div class="desc"><b>Phòng Đơn VIP1</b></div>
@@ -85,7 +85,7 @@
      </div>
      
      <div class="gallery">
-      <a href="../dlient/sanpham_3.html" >
+      <a href="../dlient/sanpham_3.php" >
          <img  src="../asset/dlient/img/room_VIP_3.jpg" alt="Northern Lights" width="600" height="400">
        </a>
        <div class="desc"><b>Phòng Đơn VIP1</b></div>
@@ -93,21 +93,21 @@
      </div>
      
      <div class="gallery">
-      <a href="../dlient/sanpham_4.html" >
+      <a href="../dlient/sanpham_4.php" >
          <img src="../asset/dlient/img/room_VIP_4.jpg" alt="Mountains" width="600" height="400">
        </a>
        <div class="desc"><b>Phòng Đơn VIP1</b></div>
        <div class="desc"><b>5.000.000 VNĐ/ĐÊM</b></div>
      </div>
      <div class="gallery">
-      <a href="../dlient/sanpham_5.html" >
+      <a href="../dlient/sanpham_5.php" >
          <img src="../asset/dlient/img/room_VIP_5.jpg" alt="Mountains" width="600" height="400">
        </a>
        <div class="desc"><b>Phòng Đơn VIP1</b></div>
        <div class="desc"><b>5.000.000 VNĐ/ĐÊM</b></div>
      </div>
      <div class="gallery">
-      <a href="../dlient/sanpham_6.html" >
+      <a href="../dlient/sanpham_6.php" >
          <img src="../asset/dlient/img/room_VIP_6.jpg" alt="Mountains" width="600" height="400">
        </a>
        <div class="desc"><b>Phòng Đơn VIP1</b></div>
@@ -123,7 +123,7 @@
     <br/>
     <div class="menu">
       <div class="gallery">
-          <a href="../dlient/sanpham_7.html" >
+          <a href="../dlient/sanpham_7.php" >
             <img  src="../asset/dlient/img/guong_doi_1.jpg" alt="Cinque Terre" width="600" height="200">
           </a>
           <div class="desc"><b>Phòng Đơn VIP1</b></div>
@@ -131,7 +131,7 @@
         </div>
         
         <div class="gallery">
-         <a href="../dlient/sanpham_8.html" >
+         <a href="../dlient/sanpham_8.php" >
             <img  src="../asset/dlient/img/guong_doi_2.jpg" alt="Forest" width="600" height="400">
           </a>
           <div class="desc"><b>Phòng Đơn VIP1</b></div>
@@ -139,7 +139,7 @@
         </div>
         
         <div class="gallery">
-         <a href="../dlient/sanpham_9.html" >
+         <a href="../dlient/sanpham_9.php" >
             <img  src="../asset/dlient/img/guong_doi_3.jpg" alt="Northern Lights" width="600" height="400">
           </a>
           <div class="desc"><b>Phòng Đơn VIP1</b></div>
@@ -147,21 +147,21 @@
         </div>
         
         <div class="gallery">
-         <a href="../dlient/sanpham_10.html" >
+         <a href="../dlient/sanpham_10.php" >
             <img src="../asset/dlient/img/guong_doi_4.jpg" alt="Mountains" width="600" height="400">
           </a>
           <div class="desc"><b>Phòng Đơn VIP1</b></div>
           <div class="desc"><b>7.000.000 VNĐ/ĐÊM</b></div>
         </div>
         <div class="gallery">
-         <a href="../dlient/sanpham_11.html" >
+         <a href="../dlient/sanpham_11.php" >
             <img src="../asset/dlient/img/guong_doi_5.jpg" alt="Mountains" width="600" height="400">
           </a>
           <div class="desc"><b>Phòng Đơn VIP1</b></div>
           <div class="desc"><b>7.000.000 VNĐ/ĐÊM</b></div>
         </div>
         <div class="gallery">
-         <a href="../dlient/sanpham_12.html" >
+         <a href="../dlient/sanpham_12.php" >
             <img src="../asset/dlient/img/guong_doi_6.jpg" alt="Mountains" width="600" height="400">
           </a>
           <div class="desc"><b>Phòng Đơn VIP1</b></div>
