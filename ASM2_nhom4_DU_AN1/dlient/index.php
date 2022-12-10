@@ -28,6 +28,8 @@ $listloai = load_list();
   <!-- <link href="../asset/dlient/CSS/sanpham.css" rel="stylesheet"> -->
   <!-- >>>>>>> 59fa914488ef0f407646907966f1bce90f1f2907 -->
 
+
+  <!-- css footer -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
@@ -36,27 +38,38 @@ $listloai = load_list();
 
 <body>
 
-  <style>
-    .menu_nav {
-      width: 20px;
-    }
-  </style>
 
-  <div class="index">
-    <ul class="nav-01">
-      <li><a href="index.php"><img src="../asset/dlient/img/icon/home.png" class="menu_nav"> Trang chủ</a></li>
+  <?php
+  require_once('../asset/dlient/page/header.php');
+  ?>
+  <!-- 
+  <header>
+    <div class="contaner">
 
-      <li><a href="About.php"> About </a></li>
 
-      <li><a href="Phong.php">Phòng</a></li>
+      <div class="logo">
+        <a href="index.php"> THE UNIVERSE</a>
+      </div>
 
-      <li><a href="DichVu.php"> Dịch Vụ </a></li>
 
-      <li><a href="../dlient/log/DangNhap.php">Đăng Nhập</a></li>
+      <div class="">
+        <ul>
+          <li><a href="index.php"><img src="../asset/dlient/img/icon/home.png" class="menu_nav"> Trang chủ</a></li>
 
-      <li><a href="../dlient/log/DangKy.php">Đăng Ký</a></li>
-    </ul>
-  </div>
+          <li><a href="About.php"> About </a></li>
+
+          <li><a href="Phong.php">Phòng</a></li>
+
+          <li><a href="DichVu.php"> Dịch Vụ </a></li>
+
+          <li><a href="../dlient/log/DangNhap.php">Đăng Nhập</a></li>
+
+          <li><a href="../dlient/log/DangKy.php">Đăng Ký</a></li>
+        </ul>
+      </div>
+    </div>
+  </header> -->
+
 
   <div class="img">
     <center>
@@ -262,7 +275,7 @@ $listloai = load_list();
 
 
 
-    <footer class="bg-dark text-white pt-5 pb-4">
+    <!-- <footer class="bg-dark text-white pt-5 pb-4">
 
       <div class="container text-center text-md-left">
 
@@ -368,8 +381,10 @@ $listloai = load_list();
 
       </div>
 
-    </footer>
-
+    </footer> -->
+    <?php
+    require_once('../asset/dlient/page/footer.php')
+    ?>
 
 
 </body>

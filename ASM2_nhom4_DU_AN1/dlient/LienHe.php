@@ -102,7 +102,9 @@
    </center>
 
 
-
+   <?php
+   require_once('../asset/dlient/page/footer.php')
+   ?>
 
 
 
