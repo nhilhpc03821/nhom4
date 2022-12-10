@@ -49,7 +49,7 @@
             <br />
 
             <div class="row mb10">
-              Mô tả
+              <label for="editor">Mô tả</label>
               <br />
               <textarea name="motahh" id="" cols="30" rows="10"></textarea>
             </div>
