@@ -6,7 +6,6 @@ include "../dao/hang-hoa.php";
 
 if (isset($_GET['id'])) {
   $thong_tin_phong = load_onehh($_GET['id']);
-  var_dump($thong_tin_phong);
 } else {
   //chuyển hướng nó ra trang chủ/// Location:php
 }
@@ -53,9 +52,9 @@ $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
 
   <hr class="thanh_ngang">
 
-  <div class="wrapper">
+  <div class="wrapper thong-tin-phong">
 
-    <div class="hinh-anh">
+    <div class="hinh-anh product-img">
       <?php if ($hinhpath != '../upload/') : ?>
         <img src="<?= $hinhpath ?>" alt="Cinque Terre" width="500" height="200">
       <?php endif; ?>
@@ -63,18 +62,24 @@ $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
     <div class="product-info">
       <div class="product-text">
         <h1><?= $thong_tin_phong['ten_hh'] ?></h1>
-        <p><?= $thong_tin_phong['mo_ta'] ?>
-        </p>
+
       </div>
       <div class="product-price-btn"><br /><br /><br />
-        <p><span>GIÁ: <?= number_format($phong['don_gia'], 0, ',', '.') ?> </span>VNĐ/đêm</p>
+        <p><span>GIÁ: <?= number_format($thong_tin_phong['don_gia'], 0, ',', '.') ?> </span>VNĐ/đêm</p>
         <form action="xuli-donhang.php?id=<?= $thong_tin_phong['ma_hh'] ?>" method="post">
           <input type="hidden">
           <button>Đặt Phòng</button>
         </form>
       </div>
     </div>
+    <div class="mo-ta-phong">
+      <?= $thong_tin_phong['mo_ta'] ?>
+    </div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0" nonce="4HSICplK"></script>
+    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
   </div>
+
 
   </center>
 
