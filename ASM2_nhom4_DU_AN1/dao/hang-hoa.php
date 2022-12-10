@@ -45,7 +45,7 @@ function load_listhh_trangchu()
 }
 
 
-
+//lay danh muc phong
 function load_loaihh($id)
 {
     if ($id > 0) {
@@ -58,6 +58,7 @@ function load_loaihh($id)
     }
 }
 
+//lay 1 phong
 function load_onehh($id)
 {
     $sql = "SELECT * from hang_hoa where ma_hh=" . $id;
