@@ -20,21 +20,9 @@
 </head>
 
 <body>
-  <div class="index">
-    <ul class="nav-01">
-      <li><a href="index.php">Trang chủ</a></li>
-
-      <li><a href="About.php"> About </a></li>
-
-      <li><a href="Phong.php">Phòng</a></li>
-
-      <li><a href="DichVu.php"> Dịch Vụ </a></li>
-
-      <li><a href="../dlient/log/DangNhap.php">Đăng Nhập</a></li>
-
-      <li><a href="../dlient/log/DangKy.php">Đăng Ký</a></li>
-    </ul>
-  </div>
+  <?php
+  require_once('../asset/dlient/page/header.php');
+  ?>
 
   <div class="img">
     <center>

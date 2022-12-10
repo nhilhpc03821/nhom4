@@ -29,24 +29,9 @@ include "../dao/hang-hoa.php";
 </head>
 
 <body>
-  <div class="index">
-    <ul class="nav-01">
-      <li><a href="index.php">Trang chủ</a></li>
-
-      <li><a href="About.php"> About </a></li>
-
-      <li><a href="Phong.php">Phòng</a></li>
-
-      <li><a href="DichVu.php"> Dịch Vụ </a></li>
-
-      <li><a href="LienHe.php">Liên Hệ</a></li>
-
-      <li><a href="DangNhap.php">Đăng Nhập</a></li>
-
-      <li><a href="DangKy.php">Đăng Ký</a></li>
-    </ul>
-  </div>
-
+  <?php
+  require_once('../asset/dlient/page/header.php');
+  ?>
 
 
   <!-- js -->
@@ -64,6 +49,7 @@ include "../dao/hang-hoa.php";
   <hr class="thanh_ngang">
 
   <div class="wrapper">
+
     <div class="hinh-anh">
       <a href="../dlient/chitietphong.php">
         <?php if ($hinhpath != '../upload/') : ?>
@@ -82,8 +68,13 @@ include "../dao/hang-hoa.php";
         </p>
       </div>
       <div class="product-price-btn"><br /><br /><br />
-        <p><span>GIÁ : 1.500.000</span>VNĐ/đêm</p><br />
-        <button type="button">buy now</button>
+        <p><span>GIÁ : 1.500.000</span>VNĐ/đêm</p>
+
+        <form action="xuli-donhang.php" method="post">
+          <input type="hidden">
+          <button>Đặt Phòng</button>
+        </form>
+
       </div>
     </div>
   </div>
