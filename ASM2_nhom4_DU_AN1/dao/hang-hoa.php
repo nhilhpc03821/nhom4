@@ -14,18 +14,15 @@ function delete_hang_hoa($id)
 
 function load_listhh($kw, $maloai)
 {
+
     $sql = "SELECT * from hang_hoa WHERE 1 ";
     if ($kw != "") {
         $sql .= " AND ten_hh like '%" . $kw . "%'";
     }
-    if ($maloai > 0) {
-        $sql .= " AND ma_loai = '" . $maloai . "'";
+    if ($maloai > 0 && $maloai != 15) {
+        $sql .= " AND ma_loai = " . $maloai . "";
     }
     $sql .= " ORDER BY ma_hh";
-    $listhh = pdo_query($sql);
-    return $listhh;
-
-    $sql = "SELECT * from hang_hoa ORDER BY ma_loai desc";
     $listhh = pdo_query($sql);
     return $listhh;
 }
