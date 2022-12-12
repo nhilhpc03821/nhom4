@@ -1,0 +1,14 @@
+.table-responsive tbody tr td button{
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.table-responsive tbody tr td button a {
+    color: #000;
+}
+.table-responsive tbody tr td button:hover{
+    color: #fff;
+    background-color: #f33155;
+    transform: scale(1.15);
+}
