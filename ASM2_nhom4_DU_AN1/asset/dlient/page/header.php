@@ -30,8 +30,15 @@
                 <a class="nav-link" href="About.php">Giới Thiệu</a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="Phong.php"> Phòng</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbardropdownlink" data-toggle="dropdown" aria-haspopup="true" aria-expand="false" href="Phong.php">Phòng</a>
+                <div class="dropdown-menu dropdown-primary" aria-label="navbardropdownlink">
+                    <a class="dropdown-item" href="Phong.php">Phòng Thường</a>
+                    <a class="dropdown-item" href="#">Phòng VIP</a>
+                    <a class="dropdown-item" href="#">Phòng VIP</a>
+
+                </div>
+
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="LienHe.php"> Liên Hệ</a>

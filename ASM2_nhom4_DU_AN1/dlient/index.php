@@ -42,33 +42,7 @@ $listloai = load_list();
   <?php
   require_once('../asset/dlient/page/header.php');
   ?>
-  <!-- 
-  <header>
-    <div class="contaner">
 
-
-      <div class="logo">
-        <a href="index.php"> THE UNIVERSE</a>
-      </div>
-
-
-      <div class="">
-        <ul>
-          <li><a href="index.php"><img src="../asset/dlient/img/icon/home.png" class="menu_nav"> Trang chủ</a></li>
-
-          <li><a href="About.php"> About </a></li>
-
-          <li><a href="Phong.php">Phòng</a></li>
-
-          <li><a href="DichVu.php"> Dịch Vụ </a></li>
-
-          <li><a href="../dlient/log/DangNhap.php">Đăng Nhập</a></li>
-
-          <li><a href="../dlient/log/DangKy.php">Đăng Ký</a></li>
-        </ul>
-      </div>
-    </div>
-  </header> -->
 
 
   <div class="img">
@@ -128,7 +102,7 @@ $listloai = load_list();
                   </a>
                 </div>
                 <div class="desc"><a href="../dlient/chitietphong.php?id=<?= $phong['ma_hh'] ?>"><b><?= $phong['ten_hh'] ?></b></a></div>
-                <div class="desc"><a href="../dlient/chitietphong.php?id=<?= $phong['ma_hh'] ?>"><b><?= number_format($phong['don_gia'], 0, ',', '.') ?> vnd</b></a></div>
+                <div class="desc"><a href="../dlient/chitietphong.php?id=<?= $phong['ma_hh'] ?>"><b><?= number_format($phong['don_gia'], 3, ',', '.') ?> VND</b></a></div>
               </div>
             </div>
         <?php

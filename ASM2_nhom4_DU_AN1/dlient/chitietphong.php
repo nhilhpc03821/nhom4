@@ -7,10 +7,9 @@ include "../dao/hang-hoa.php";
 if (isset($_GET['id'])) {
   $thong_tin_phong = load_onehh($_GET['id']);
 } else {
-  //chuyển hướng nó ra trang chủ/// Location:php
+  // header("location: index.php");
 }
 $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
-
 ?>
 
 <!DOCTYPE html>
@@ -65,7 +64,7 @@ $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
 
       </div>
       <div class="product-price-btn"><br /><br /><br />
-        <p><span>GIÁ: <?= number_format($thong_tin_phong['don_gia'], 0, ',', '.') ?> </span>VNĐ/đêm</p>
+        <p><span>GIÁ: <?= number_format($thong_tin_phong['don_gia'], 3, ',', '.') ?> </span> VNĐ/đêm</p>
         <form action="xuli-donhang.php?id=<?= $thong_tin_phong['ma_hh'] ?>" method="post">
           <input type="hidden">
           <button>Đặt Phòng</button>
