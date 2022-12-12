@@ -25,8 +25,6 @@ $listloai = load_list();
 
   <link href="../asset/dlient/CSS/index.css" rel="stylesheet">
 
-  <!-- <link href="../asset/dlient/CSS/sanpham.css" rel="stylesheet"> -->
-  <!-- >>>>>>> 59fa914488ef0f407646907966f1bce90f1f2907 -->
 
 
   <!-- css footer -->
@@ -35,6 +33,8 @@ $listloai = load_list();
 
 
 </head>
+
+
 
 <body>
 
@@ -45,33 +45,30 @@ $listloai = load_list();
 
 
 
-  <div class="img">
-    <center>
-      <img id="img" class="baner_anh" onclick="changeImage()" src="../asset/dlient/img/banner_1.jpg  " width="1300px" height="450px">
-    </center>
+  <div class="banner text-center" style="margin-top: 100px;">
+    <img id="img" class="baner_anh" onclick="changeImage()" src="../asset/dlient/img/banner_1.jpg  " width="1300px" height="450px">
+
     <img>
   </div>
 
   <!-- end show -->
 
   <!-- About Start -->
-  <div class="about">
-    <center>
-      <h2 class="chu_01"> About THE UNIVERSE </h2>
-    </center>
+  <div class="container">
+
     <br />
-    <div class="menu">
-      <h3 class="into_1">Chào mừng đến với THE UNIVERSE</h3>
-      <p class="into_2">THE UNIVERSE với các phòng biệt thự và bungalow được trang bị đầy đủ tiện nghi,<br /> không
-        gian bên trong được bài trí theo phong cách sang trọng pha trộn những nét<br /> truyền
-        thống của người Việt và những nét hiện đại của phương Tây. <br />
+    <div class="gioi-thieu-ngan">
+      <h3>Chào mừng đến với THE UNIVERSE</h3>
+      <p>THE UNIVERSE với các phòng biệt thự và bungalow được trang bị đầy đủ tiện nghi, không
+        gian bên trong được bài trí theo phong cách sang trọng pha trộn những nét truyền
+        thống của người Việt và những nét hiện đại của phương Tây.
         <br />
-        Chúng tôi có đội ngũ nhân viên được đào tạo bài bản, chuyên nghiệp và tác phong<br /> chuyên
-        nghiệp, phục vụ tận tình.Luxe Hotel tự tin mang đến cho bạn sự thăng hoa<br /> về cảm xúc,
-        những trải nghiệm tốt nhất, tuyệt vời nhất trong kỳ nghỉ dưỡng của bạn .<br /> Hãy đến với
+        Chúng tôi có đội ngũ nhân viên được đào tạo bài bản, chuyên nghiệp và tác phongchuyên
+        nghiệp, phục vụ tận tình.Luxe Hotel tự tin mang đến cho bạn sự thăng hoa về cảm xúc,
+        những trải nghiệm tốt nhất, tuyệt vời nhất trong kỳ nghỉ dưỡng của bạn . Hãy đến với
         chúng tôi, chúng tôi đảm bảo rằng bạn sẽ không hối tiếc.
       </p>
-      <img class="anh_hotel" src="../asset/dlient/img/hotel.jpg">
+      <img class="anh_hotel" src="../asset/dlient/img/gioi_thieu.jpg" width="100%" style="margin-bottom: 50px;">
     </div>
   </div>
 
@@ -88,7 +85,10 @@ $listloai = load_list();
         <hr class="thanh_ngang">
         <h2 class="tieu-de text-center"><?= $loai_phong['ten_loai'] ?> </h2>
 
-        <div class="danh-sach-san-pham">
+
+
+
+        <div class=" danh-sach-san-pham">
           <?php foreach ($danh_sach_phong as $phong) :
             $hinhpath = "../upload/" . $phong['hinh'];
           ?>
@@ -117,32 +117,31 @@ $listloai = load_list();
 
 
 
-    <center>
-      <hr class="thanh_ngang">
-      <H1 class="chu_02"> Phòng Tổng Thống Sắp Có Tại Khách Sạn</H1>
-    </center>
+
+    <hr class="thanh_ngang">
+    <H1 class="chu_02 text-center"> Phòng Tổng Thống Sắp Có Tại Khách Sạn</H1>
 
 
-    <div class="gioi_thieu">
 
-      <center>
-        <h2 class="chu_1">Phòng Tổng Thống VIP1</h2>
+    <div class="container">
+
+
+      <h3 class="chu_1">Phòng Tổng Thống VIP1</h2>
 
         <img class="sticky" src="../asset/dlient/img/phonh_tongthong.jpg" alt="Avatar" width="400px">
-      </center>
-      <p class="chu_2">Phòng Tổng Thống VIP1 có diện tích rộng đến 313m², giá một đêm là 15.000
-        đô-la Mỹ (khoảng gần 340 triệu đồng, chưa bao gồm VAT)gồm có 2 phòng ngủ, một phòng ăn, một phòng khách cà một phòng làm việc riêng.<br />
-        Hầu hết nội thất trong phòng đều được chế tác từ những vật liệu xa xỉ như vàng, cẩm thạch, đá quý...theo phong cách quý tộc. Ngoài ra,
-        nội thất tại đây đều được trang bị từ những thương hiệu nội thất danh tiếng đến từ Italia như: Colombostile, Baldi Home Art, VG New Trend.
-      </p>
+        <p class="chu_2">Phòng Tổng Thống VIP1 có diện tích rộng đến 313m², giá một đêm là 15.000
+          đô-la Mỹ (khoảng gần 340 triệu đồng, chưa bao gồm VAT)gồm có 2 phòng ngủ, một phòng ăn, một phòng khách cà một phòng làm việc riêng.<br />
+          Hầu hết nội thất trong phòng đều được chế tác từ những vật liệu xa xỉ như vàng, cẩm thạch, đá quý...theo phong cách quý tộc. Ngoài ra,
+          nội thất tại đây đều được trang bị từ những thương hiệu nội thất danh tiếng đến từ Italia như: Colombostile, Baldi Home Art, VG New Trend.
+        </p>
     </div>
 
-    <div class="gioi_thieu_01">
+    <div class="container">s
       <br />
-      <center>
-        <h2 class="chu_1">Phòng Tổng Thống VIP2</h2>
-        <img class="sticky" src="../asset/dlient/img/phong_tong_thong_2.jpg" alt="Avatar" width="400px">
-      </center>
+
+      <h2 class="chu_1">Phòng Tổng Thống VIP2</h2>
+      <img class="sticky" src="../asset/dlient/img/phong_tong_thong_2.jpg" alt="Avatar" width="400px">
+
 
       <p class="chu_2">Phòng Tổng Thống VIP2 căn phòng có 4 phòng ngủ, 5 phòng tắm, phòng Tổng thống tại
         khách sạnCăn phòng có diện tích lên tới 1.000m2 này khiến ai nghe qua đều cảm thấy choáng váng về
@@ -154,7 +153,7 @@ $listloai = load_list();
       </p>
     </div>
     <br /><br /><br />
-    <div class="gioi_thieu">
+    <div class="container">
       <br />
       <h2 class="chu_1">Phòng Tổng Thống VIP3</h2>
       <img class="sticky" src="../asset/dlient/img/phong_tong_thong_3.jpg" alt="Avatar" width="300px">
@@ -171,7 +170,7 @@ $listloai = load_list();
       </p>
     </div>
 
-    <div class="gioi_thieu_01">
+    <div class="container">
       <br />
       <h2 class="chu_1">Phòng Tổng Thống VIP4</h2>
       <img class="sticky" src="../asset/dlient/img/phong_tong_thong_4.jpg" alt="Avatar" width="300px">
@@ -186,59 +185,53 @@ $listloai = load_list();
         hiện đại và mới nhất hiện nay.
       </p>
     </div>
-    <br /><br /><br />
 
-    <br /><br /><br /><br /><br /><br />
-    <center>
-      <hr class="thanh_ngang">
-      <H1 class="chu_01"> Giới Thiệu sơ lược về Khách sạn</H1>
-    </center>
 
-    <br /><br /><br /><br />
+    <hr class="thanh_ngang">
+    <H1 class="chu_01 text-center"> Giới Thiệu sơ lược về Khách sạn</H1>
 
-    <center>
-      <div class="row">
-        <div class="column">
-          <div class="card">
-            <img src="../asset/dlient/img/gioi_thieu3.jpg" alt="Jane" style="width:60%">
-            <div class="container">
-              <h2> Khách sạn The UNIVERSE</h2>
-              <p>Với chất lượng chính hãng của máy pha cafe các khách hàng có thể an tâm
-                thưởng thức, có giấy chứng nhận và có thể quét mã để quý khách an tâm khi
-                thưởng thức dồ uống tại quán</p>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="../asset/dlient/img/gioi_thieu3.jpg" alt="Jane" style="width:60%">
+          <div class="container">
+            <h2> Khách sạn The UNIVERSE</h2>
+            <p>Với chất lượng chính hãng của máy pha cafe các khách hàng có thể an tâm
+              thưởng thức, có giấy chứng nhận và có thể quét mã để quý khách an tâm khi
+              thưởng thức dồ uống tại quán</p>
 
-            </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="card">
-            <img src="../asset/dlient/img/gioi_thieu4.jpg" alt="Mike" style="width:90%">
-            <div class="container">
-              <h2>Không gian bên trong của khách sạn </h2>
-              <p class="title">Art Director</p>
-              <p>Mang Phong cách Hàn Quốc không gian nhẹ nhàng yên tĩnh cùng nhiều góc
-                chụp sống ảo đẹp và bạn như chìm vào chuỗi ngày bình yên mà quên hết đi
-                những mệt mỏi, bon chen thường nhật</p>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="card">
-            <img src="../asset/dlient/img/nhan_vien_1.jpg" alt="John" style="width:100%">
-            <div class="container">
-              <h2> Nguyên Liệu sạch</h2>
-              <p class="title"> Nhân viên đcược đào tạo chuyên nghiệp</p>
-              <p>Nguyên liệu dùng để làm bánh và pha chế nước uống tại quán có nguồn góc
-                rõ ràng không có chất bảo quản , đảm bảo an toàn vệ sinh thực phẩm</p>
-
-            </div>
           </div>
         </div>
       </div>
-    </center>
+
+      <div class="column">
+        <div class="card">
+          <img src="../asset/dlient/img/gioi_thieu4.jpg" alt="Mike" style="width:90%">
+          <div class="container">
+            <h2>Không gian bên trong của khách sạn </h2>
+            <p class="title">Art Director</p>
+            <p>Mang Phong cách Hàn Quốc không gian nhẹ nhàng yên tĩnh cùng nhiều góc
+              chụp sống ảo đẹp và bạn như chìm vào chuỗi ngày bình yên mà quên hết đi
+              những mệt mỏi, bon chen thường nhật</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="../asset/dlient/img/nhan_vien_1.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2> Nguyên Liệu sạch</h2>
+            <p class="title"> Nhân viên đcược đào tạo chuyên nghiệp</p>
+            <p>Nguyên liệu dùng để làm bánh và pha chế nước uống tại quán có nguồn góc
+              rõ ràng không có chất bảo quản , đảm bảo an toàn vệ sinh thực phẩm</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 
 
