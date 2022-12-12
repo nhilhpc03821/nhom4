@@ -10,13 +10,6 @@
 
   <link href="../asset/dlient/CSS/index.css" rel="stylesheet">
 
-  <link href="../asset/dlient/CSS/sanpham.css" rel="stylesheet">
-
-  <link href="../asset/dlient/CSS/gioithieu.css" rel="stylesheet">
-
-  <link href="../asset/dlient/JS/sanpham.js" rel="stylesheet">
-
-  <link href="../asset/dlient/JS/sanpham_1.js" rel="stylesheet">
 </head>
 
 <body>
@@ -32,83 +25,77 @@
   </div>
 
 
-  <div class="gioi_thieu">
+
+
+  <div class="container">
+    <h2 class="gioi-thieu-ngan text-center">Tại THE UNIVERSE Có Gì</h2>
+
+
+
+    <div class="about-1" style="max-width: 100%; ">
+      <h3 class="chu_1">Đến với THE UNIVERSE</h3>
+      <p class="chu_2">Với chất lượng đạt chuẩn Quốc tế 4 sao, khách sạn THE UNIVERSE không chỉ đáp ứng
+        hoàn hảo nhu cầu nghỉ ngơi của Quý khách mà còn mang đến những giây phút thư
+        giãn giải trí tuyệt vời và để lại dư vị ấn tượng trong văn hóa ẩm thực nơi đây.
+        <br />
+
+        Khách sạn Hoàng Sơn Peace được thiết kế bao gồm 12 tầng và 214 phòng các loại với
+        nội thất cao cấp và sang trọng không gian bên ngoài với xa xa là khung cảnh non nước
+        hữu tình đầy thơ mộng và cảnh đẹp lung linh khi màn đêm buông xuống để mặc những
+        ánh đèn đua nhau thắp lên. Hãy đến với chúng tôi, chúng tôi đảm bảo rằng bạn sẽ
+        hài lòng với phong cảnh và cách phục vụ của chúng tôi.
+      </p>
+    </div>
+
+
+
+
 
     <br />
-    <h2 class="chu_1">Sticky Toffee Pudding</h2>
-    <img class="sticky" src="../asset/dlient/img/Sticky Toffee Pudding .jpg" alt="Avatar" width="300px">
+    <div class="video_01">
+      <video autoplay muted loop width="100%">
+        <source src="../asset/dlient/video/SPA promo video.mp4">
+      </video>
+    </div>
 
-    <p class="chu_2"><b>Với lớp bánh xốp mềm, mịn màng làm từ bột mì đánh mịn có trộn <br />
-        thêm một chút bơ, đường, trứng gà và sôcôla. Tất cả hòa quyện sóng sánh trong một
-        lớp sốt đặc như kẹo bơ cứng ngọt ngào. Người Anh còn cho thêm hương quế vào món
-        ăn khiến mùi vị lúc món ăn hoàn thành vô cùng hấp dẫn. </b></p>
+
+
+    <div class="menu_02">
+      <h3 class="into_02">Đến với THE UNIVERSE</h3>
+      <p class="into_02">Với chất lượng đạt chuẩn Quốc tế 4 sao, khách sạn THE UNIVERSE không chỉ đáp ứng
+        hoàn hảo nhu cầu nghỉ ngơi của Quý khách mà còn mang đến những giây phút thư
+        giãn giải trí tuyệt vời và để lại dư vị ấn tượng trong văn hóa ẩm thực nơi đây.
+        <br />
+
+        Khách sạn Hoàng Sơn Peace được thiết kế bao gồm 12 tầng và 214 phòng các loại với
+        nội thất cao cấp và sang trọng không gian bên ngoài với xa xa là khung cảnh non nước
+        hữu tình đầy thơ mộng và cảnh đẹp lung linh khi màn đêm buông xuống để mặc những
+        ánh đèn đua nhau thắp lên. Hãy đến với chúng tôi, chúng tôi đảm bảo rằng bạn sẽ
+        hài lòng với phong cảnh và cách phục vụ của chúng tôi.
+      </p>
+    </div>
+    <div class="video_02">
+      <video autoplay muted loop width="100%">
+        <source src="../asset/dlient/video/BBQ.mp4">
+      </video>
+    </div>
+
+
+
   </div>
-
-  <div class="gioi_thieu_01">
-    <br />
-    <h2 class="chu_1">TRÀ XANH BƯỞI HỒNG RUBY </h2>
-    <img class="sticky" src="../asset/dlient/img/trà xanh bưởi ruby.jpg" alt="Avatar" width="300px">
-
-    <p class="chu_2"><b>trà trái cây Trà Xanh Bưởi Hồng Ruby với màu đỏ rực rỡ như Ruby, mang đậm
-        nét đặc trưng của các loại trái cây nhiệt đới vùng Viễn Đông. Điểm khác biệt
-        của nó chính là sự phá cách khi thêm vào nước thanh long đỏ khiến món nước bùng vị hơn.</b></p>
-  </div>
-  <br /><br /><br />
-  <div class="gioi_thieu">
-    <br />
-    <h2 class="chu_1"> Bánh Cá Taiyaki </h2>
-    <img class="sticky" src="../asset/dlient/img/bánh cá Taiyaki .jpg" alt="Avatar" width="300px">
-
-    <p class="chu_2"><b>Món bánh ngọt hình con cá Hàn Quốc này tràn ngập vị ngọt
-        từ nhân đậu đỏ, bạn sẽ tìm thấy ở khắp mọi xe bán tại các góc đường. Các
-        cạnh giòn và bên trong dai ngập nhân tạo nên sự thích thú. </b></p>
-  </div>
-
-  <div class="gioi_thieu_01">
-    <br />
-    <h2 class="chu_1">HỒNG TRÀ QUẤT ĐỎ </h2>
-    <img class="sticky" src="../asset/dlient/img/Hồng trà quất đỏ.jpg" alt="Avatar" width="300px">
-
-    <p class="chu_2"><b>Hồng Trà Quất Đỏ không phải tự nhiên trở thành Vedette
-        của nhiều quán nước hiện nay. Màu sắc đỏ tím ma mị, quyến rũ mọi ánh nhìn,
-        chấp hết sự sắc nét của máy ảnh. Vị ngọt thanh của thanh long đỏ vừa tới,
-        hương thơm ngọt ngào đắm say pha chút chua nhẹ. Vẻ đẹp bộc lộ sự sexy song
-        vẫn e thẹn làm lòng người xao xuyến.</b></p>
-  </div>
-  <br /><br /><br />
-  <div class="gioi_thieu">
-    <br />
-    <h2 class="chu_1">Anmitsu </h2>
-    <img class="sticky" src="../asset/dlient/img/Anmitsu .jpg" alt="Avatar" width="300px">
-
-    <p class="chu_2"><b>Anmitsu là một món tráng miệng rất nhiều nguyên liệu: mứt đậu đỏ,
-        bánh mochi, thạch, đậu ngọt, trái cây,… và rưới lên trên cả siro đường nâu. Phải
-        tìm đến các quán đồ Nhật cao cấp và đúng chuẩn Nhật mới có thể có món này.</b></p>
-  </div>
-
-  <div class="gioi_thieu_01">
-    <br />
-    <h2 class="chu_1">SỮA TƯƠI TRÂN CHÂU ĐƯỜNG ĐEN THANH LONG ĐỎ</h2>
-    <img class="sticky" src="../asset/dlient/img/SỮA TƯƠI TRÂN CHÂU ĐƯỜNG ĐEN THANH LONG ĐỎ.jpg" alt="Avatar" width="300px">
-
-    <p class="chu_2"><b>Sữa Tươi Trân Châu Đường Đen Thanh Long Đỏ sở hữu ngoại hình bắt
-        mắt, màu đỏ tía của thanh long ruột đỏ làm ly nước trở nên khác lạ và đặc biệt. Hương
-        vị chua ngọt trên nền sữa tươi beo béo, trân châu dai mềm là một kết hợp hoàn hảo.</b></p>
   </div>
 
 
 
 
 
-
-
-
+  </div>
 
   <?php
   require_once('../asset/dlient/page/footer.php')
   ?>
 
-
+  <br />
   </div>
 </body>
 
