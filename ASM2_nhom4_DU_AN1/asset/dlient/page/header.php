@@ -62,10 +62,6 @@
 
 </nav>
 
-<div style="margin-top: 10%;text-align: center;color: #000">
-    <h1 class="font-weight-bold" style="font-size: 50px;">WELLCOME</h1>
-    <h4>Free Source of Prodigious Codding for EveryOne</h4>
-</div>
 
 
 
