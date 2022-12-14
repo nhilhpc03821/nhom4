@@ -82,7 +82,7 @@ $listloai = load_list();
 
       if (!empty($danh_sach_phong)) :
   ?>
-        <hr class="thanh_ngang">
+        <hr class="sep-2" />
         <h2 class="tieu-de text-center"><?= $loai_phong['ten_loai'] ?> </h2>
 
 
@@ -119,14 +119,15 @@ $listloai = load_list();
 
 
     <hr class="thanh_ngang">
-    <H1 class="chu_02 text-center"> Phòng Tổng Thống Sắp Có Tại Khách Sạn</H1>
+    <h2 class="chu_02 text-center"> Phòng Tổng Thống Sắp Có Tại Khách Sạn</h2>
 
 
 
     <div class="container">
 
 
-      <h3 class="chu_1">Phòng Tổng Thống VIP1</h2>
+      <h3 class="chu_1">Phòng Tổng Thống VIP1
+        </h2>
 
         <img class="sticky" src="../asset/dlient/img/phonh_tongthong.jpg" alt="Avatar" width="400px">
         <p class="chu_2">Phòng Tổng Thống VIP1 có diện tích rộng đến 313m², giá một đêm là 15.000
@@ -152,7 +153,7 @@ $listloai = load_list();
         muốn thưởng thức trọn vẹn bức tranh màu xanh ngọc bích của thiên nhiên vịnh Hạ Long dưới góc nhìn 360 độ.
       </p>
     </div>
-    <br /><br /><br />
+
     <div class="container">
       <br />
       <h2 class="chu_1">Phòng Tổng Thống VIP3</h2>
@@ -188,45 +189,46 @@ $listloai = load_list();
 
 
     <hr class="thanh_ngang">
-    <H1 class="chu_01 text-center"> Giới Thiệu sơ lược về Khách sạn</H1>
+    <h2 class="chu_01 text-center"> Giới Thiệu sơ lược về Khách sạn</h2>
 
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="../asset/dlient/img/gioi_thieu3.jpg" alt="Jane" style="width:60%">
-          <div class="container">
-            <h2> Khách sạn The UNIVERSE</h2>
-            <p>Với chất lượng chính hãng của máy pha cafe các khách hàng có thể an tâm
-              thưởng thức, có giấy chứng nhận và có thể quét mã để quý khách an tâm khi
-              thưởng thức dồ uống tại quán</p>
 
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="card">
+            <img src="../asset/dlient/img/gioi_thieu3.jpg" alt="Jane">
+            <div class="container">
+              <h2> Khách sạn The UNIVERSE</h2>
+              <p>Với chất lượng chính hãng của máy pha cafe các khách hàng có thể an tâm
+                thưởng thức, có giấy chứng nhận và có thể quét mã để quý khách an tâm khi
+                thưởng thức dồ uống tại quán</p>
+
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="column">
-        <div class="card">
-          <img src="../asset/dlient/img/gioi_thieu4.jpg" alt="Mike" style="width:90%">
-          <div class="container">
-            <h2>Không gian bên trong của khách sạn </h2>
-            <p class="title">Art Director</p>
-            <p>Mang Phong cách Hàn Quốc không gian nhẹ nhàng yên tĩnh cùng nhiều góc
-              chụp sống ảo đẹp và bạn như chìm vào chuỗi ngày bình yên mà quên hết đi
-              những mệt mỏi, bon chen thường nhật</p>
 
+        <div class="col-md-5 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="card">
+            <img src="../asset/dlient/img/gioi_thieu4.jpg" alt="Mike">
+            <div class="container">
+              <h2>Không gian bên trong của khách sạn </h2>
+
+              <p>Mang Phong cách Hàn Quốc không gian nhẹ nhàng yên tĩnh cùng nhiều góc
+                chụp sống ảo đẹp và bạn như chìm vào chuỗi ngày bình yên mà quên hết đi
+                những mệt mỏi, bon chen thường nhật</p>
+
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="column">
-        <div class="card">
-          <img src="../asset/dlient/img/nhan_vien_1.jpg" alt="John" style="width:100%">
-          <div class="container">
+        <div class="col-md-5 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="card">
+            <img src="../asset/dlient/img/nhan_vien_1.jpg" alt="John">
+
             <h2> Nguyên Liệu sạch</h2>
-            <p class="title"> Nhân viên đcược đào tạo chuyên nghiệp</p>
             <p>Nguyên liệu dùng để làm bánh và pha chế nước uống tại quán có nguồn góc
               rõ ràng không có chất bảo quản , đảm bảo an toàn vệ sinh thực phẩm</p>
-
           </div>
         </div>
       </div>
@@ -234,115 +236,6 @@ $listloai = load_list();
 
 
 
-
-
-    <!-- <footer class="bg-dark text-white pt-5 pb-4">
-
-      <div class="container text-center text-md-left">
-
-        <div class="row text-center text-md-left">
-
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">VỀ CHÚNG TÔI</h5>
-            <p>Với mục tiêu đặt khách hàng lên hàng đầu, vì vậy chúng tôi luôn phục vụ và quan tâm khách hàng nhanh nhất có thể. </p>
-
-          </div>
-
-          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">VỀ CHÚNG TÔI</h5>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none;"> Cách đặt chỗ</a>
-            </p>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none;"> Liên hệ chúng tôi</a>
-            </p>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none;"> Trợ giúp</a>
-            </p>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none;"> Tuyển dụng</a>
-            </p>
-
-          </div>
-
-          <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">HỔ TRỢ</h5>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none;"> Tài Khoản</a>
-            </p>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none;">Khuyến Mãi</a>
-            </p>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none;"> Phương Thức Thanh Toán</a>
-            </p>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none;"> Chính Sách Về Quyền Riêng Tư </a>
-            </p>
-          </div>
-
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">LIÊN HỆ</h5>
-            <p>
-              <i class="fas fa-home mr-3"></i>288, Nguyễn Văn Linh, An Khánh, Ninh Kiều, Cần Thơ
-            </p>
-            <p>
-              <i class="fas fa-envelope mr-3"></i>hanvnpc03858@fpt.edu.vn
-            </p>
-            <p>
-              <i class="fas fa-envelope mr-3"></i>nhilhpc03821@fpt.edu.vn
-            </p>
-            <p>
-              <i class="fas fa-phone mr-3"></i>+84 857198354
-            </p>
-
-          </div>
-
-        </div>
-
-        <hr class="mb-4">
-
-        <div class="row align-items-center">
-
-          <div class="col-md-7 col-lg-8">
-            <p> Copyright ©2020 All rights reserved by:
-              <a href="#" style="text-decoration: none;">
-                <strong class="text-warning">Ngọc Hân hahahahahaha</strong>
-              </a>
-            </p>
-
-          </div>
-
-          <div class="col-md-5 col-lg-4">
-            <div class="text-center text-md-right">
-
-              <ul class="list-unstyled list-inline">
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com/ngochaan136" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.youtube.com/watch?v=v_igBq7fAMs" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
-                </li>
-              </ul>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </footer> -->
     <?php
     require_once('../asset/dlient/page/footer.php')
     ?>
