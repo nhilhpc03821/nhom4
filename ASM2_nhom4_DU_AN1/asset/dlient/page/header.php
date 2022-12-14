@@ -31,7 +31,7 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbardropdownlink" data-toggle="dropdown" aria-haspopup="true" aria-expand="false" href="Phong.php">Phòng</a>
+                <a class="nav-link dropdown-toggle" id="navbardropdownlink" aria-haspopup="true" aria-expand="false" href="Phong.php">Phòng</a>
                 <div class="dropdown-menu dropdown-primary" aria-label="navbardropdownlink">
                     <a class="dropdown-item" href="Phong.php">Phòng Thường</a>
                     <a class="dropdown-item" href="#">Phòng VIP</a>
@@ -82,59 +82,3 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-
-
-<!-- 
-<style>
-    body {
-        background-image: url('../img/img1.jpg');
-        background-size: cover;
-        height: 120vh;
-    }
-
-    .nav-link {
-        font-size: 20px;
-        margin-left: 20px;
-        font-weight: bold;
-    }
-
-    .dropdown-menu {
-        animation-name: atthover;
-        animation-duration: 1s;
-        animation-iteration-count: finite;
-    }
-
-    .dropdown:hover {
-        animation-play-state: running;
-    }
-
-    .dropdown:hover>.dropdown-menu {
-        display: block;
-    }
-
-    .dropdown-item:hover {
-        background-color: #ccc;
-    }
-
-    @keyframes atthover {
-        0% {
-            opacity: 0;
-            margin-top: 30px;
-        }
-
-        50% {
-            opacity: 1;
-            margin-top: 0px;
-        }
-
-        100% {
-            opacity: 100%;
-        }
-
-    }
-
-    .navbar-dark.scrolled {
-        background: #4a4847;
-        transition: .5s ease-in-out;
-    }
-</style> -->
