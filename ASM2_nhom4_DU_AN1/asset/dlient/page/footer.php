@@ -41,10 +41,10 @@
                     <a href="#" class="text-white" style="text-decoration: none;">Khuyến Mãi</a>
                 </p>
                 <p>
-                    <a href="#" class="text-white" style="text-decoration: none;"> Phương Thức Thanh Toán</a>
+                    <a href="pttt.php" class="text-white" style="text-decoration: none;"> Phương Thức Thanh Toán</a>
                 </p>
                 <p>
-                    <a href="#" class="text-white" style="text-decoration: none;"> Chính Sách Về Quyền Riêng Tư </a>
+                    <a href="quyen_rieng_tu.php" class="text-white" style="text-decoration: none;"> Chính Sách Về Quyền Riêng Tư </a>
                 </p>
             </div>
 
