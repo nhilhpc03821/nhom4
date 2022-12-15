@@ -18,7 +18,7 @@ if (is_file($hinhpath)) {
 <div id="layoutSidenav_content">
   <main>
     <div class="container-fluid px-4">
-      <h1 class="mt-4">Loại hàng - chỉnh sửa</h1>
+      <h1 class="mt-4">Phòng - Chỉnh Sửa</h1>
       <div class="card mb-4">
         <div class="card-body">
 
