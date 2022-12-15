@@ -11,9 +11,9 @@ if (isset($_GET['loai'])) {
   $loai_phong = load_one($_GET['loai']);
 } else {
 
-  $danh_sach_phong = load_listhh("", 15);
+  $danh_sach_phong = load_listhh("", 0);
 
-  $loai_phong = load_one(15);
+  $loai_phong = load_one(0);
 }
 
 ?>

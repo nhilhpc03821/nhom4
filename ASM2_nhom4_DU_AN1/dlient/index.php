@@ -77,7 +77,7 @@ $listloai = load_list();
 
 
   <?php foreach ($listloai as $loai_phong) :
-    if ($loai_phong['ma_loai'] != 15) :
+    if ($loai_phong['ma_loai'] != 0) :
       $danh_sach_phong = load_listhh("", $loai_phong['ma_loai']);
 
       if (!empty($danh_sach_phong)) :
