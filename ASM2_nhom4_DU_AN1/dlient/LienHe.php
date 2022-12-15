@@ -6,8 +6,8 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title> Liên Hệ </title>
-   <script src="../asset/dlient/JS/index.js"></script>
 
+   <script src="../asset/dlient/JS/lienhe.js"></script>
 
    <link href="../asset/dlient/CSS/lienhe.css" rel="stylesheet">
 </head>
@@ -95,7 +95,6 @@
          </div>
 
       </section>
-      <script src="../asset/dlient/JS/lienhe.js"></script>
 
    </body>
 
