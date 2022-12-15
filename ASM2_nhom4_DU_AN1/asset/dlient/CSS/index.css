@@ -1,0 +1,70 @@
+.danh-sach-san-pham {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.danh-sach-san-pham .san-pham {
+  flex-basis: calc(100% / 5 - 7.5px);
+  margin-bottom: 15px;
+  padding: 0 7px;
+}
+.danh-sach-san-pham .san-pham:hover {
+  box-shadow: rgb(205 63 163 / 15%) 0px 15px 25px, rgb(0 0 0 / 5%) 0px 5px 10px;
+}
+
+.danh-sach-san-pham .san-pham a {
+  text-decoration: none;
+  color: #000;
+}
+.danh-sach-san-pham .san-pham .hinh-anh {
+  width: 100%;
+  height: 210px;
+}
+.danh-sach-san-pham .san-pham .hinh-anh img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.gallery {
+  border: 1px solid rgb(204, 204, 204);
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 7px;
+  text-align: center;
+}
+
+.gioi-thieu-ngan {
+  margin: auto;
+}
+
+.avt {
+  border: 1px solid black;
+}
+
+.sep-2 {
+  max-width: 1180px;
+  border: 1px;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    #f0f0f0,
+    #00b9ff,
+    #59d941,
+    #f0f0f0
+  );
+}
+
+.tieu-de {
+  text-transform: uppercase;
+}
