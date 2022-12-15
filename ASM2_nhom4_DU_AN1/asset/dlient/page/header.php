@@ -31,11 +31,13 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbardropdownlink" aria-haspopup="true" aria-expand="false" href="Phong.php">Phòng</a>
+                <a class="nav-link dropdown-toggle" id="navbardropdownlink" data-toggle="dropdown" aria-haspopup="true" aria-expand="false">Phòng</a>
                 <div class="dropdown-menu dropdown-primary" aria-label="navbardropdownlink">
-                    <a class="dropdown-item" href="Phong.php">Phòng Thường</a>
-                    <a class="dropdown-item" href="#">Phòng VIP</a>
-                    <a class="dropdown-item" href="#">Phòng VIP</a>
+                    <a class="dropdown-item" href="Phong.php">Tất Cả Phòng</a>
+                    <a class="dropdown-item" href="single.php">Phòng Đơn - Single</a>
+                    <a class="dropdown-item" href="double.php">Phòng Đôi - Double</a>
+                    <a class="dropdown-item" href="twin.php">Phòng 2 Giường - Twin</a>
+                    <a class="dropdown-item" href="tripble.php">Phòng 3 Người - Tripble</a>
 
                 </div>
 
