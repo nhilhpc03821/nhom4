@@ -4,10 +4,14 @@
   max-width: 1180px;
   margin: 0 auto;
 }
+
 .danh-sach-san-pham .san-pham {
   flex-basis: calc(100% / 5 - 7.5px);
   margin-bottom: 15px;
   padding: 0 7px;
+}
+.danh-sach-san-pham .san-pham:hover {
+  box-shadow: rgb(205 63 163 / 15%) 0px 15px 25px, rgb(0 0 0 / 5%) 0px 5px 10px;
 }
 
 .danh-sach-san-pham .san-pham a {
@@ -49,6 +53,7 @@ div.desc {
 }
 
 .sep-2 {
+  max-width: 1180px;
   border: 1px;
   height: 1px;
   background-image: linear-gradient(
@@ -58,4 +63,8 @@ div.desc {
     #59d941,
     #f0f0f0
   );
+}
+
+.tieu-de {
+  text-transform: uppercase;
 }

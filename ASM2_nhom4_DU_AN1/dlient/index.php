@@ -45,10 +45,10 @@ $listloai = load_list();
 
 
 
-  <div class="banner text-center" style="margin-top: 100px;">
-    <img id="img" class="baner_anh" onclick="changeImage()" src="../asset/dlient/img/banner_1.jpg  " width="1300px" height="450px">
+  <div class="banner text-center" style="margin-top: 78px;">
+    <img id="img" class="baner_anh" onclick="changeImage()" src="../asset/dlient/img/banner_1.jpg  " width="100%" height="700px">
 
-    <img>
+    <img src="../asset/dlient/img/icon/avt.png">
   </div>
 
   <!-- end show -->
@@ -118,7 +118,7 @@ $listloai = load_list();
 
 
 
-    <hr class="thanh_ngang">
+    <hr class="sep-2" />
     <h2 class="chu_02 text-center"> Phòng Tổng Thống Sắp Có Tại Khách Sạn</h2>
 
 
@@ -137,7 +137,7 @@ $listloai = load_list();
         </p>
     </div>
 
-    <div class="container">s
+    <div class="container">
       <br />
 
       <h2 class="chu_1">Phòng Tổng Thống VIP2</h2>
@@ -188,7 +188,7 @@ $listloai = load_list();
     </div>
 
 
-    <hr class="thanh_ngang">
+    <hr class="sep-2" />
     <h2 class="chu_01 text-center"> Giới Thiệu sơ lược về Khách sạn</h2>
 
 
