@@ -5,8 +5,6 @@ include "header.php";
 include "../dao/loai.php";
 include "../dao/hang-hoa.php";
 include "../dao/khach-hang.php";
-include "../dao/binh-luan.php";
-include "../dao/thong-ke.php";
 include "../dao/don-hang.php";
 //controller
 if (isset($_GET["act"])) {
@@ -94,10 +92,6 @@ if (isset($_GET["act"])) {
             $listhh = load_listhh($kw, $maloai);
             include "hang-hoa/list.php";
             break;
-        case 'listdh':
-            $don_hang = danh_sach_don_hang();
-            include "don-hang/list.php";
-            break;
 
         case 'xoahh':
             if (isset($_GET['mahh']) && ($_GET['mahh'] > 0)) {
@@ -137,7 +131,11 @@ if (isset($_GET["act"])) {
             include 'hang-hoa/list.php';
             break;
 
-
+            // đơn hàng
+        case 'listdh':
+            $don_hang = danh_sach_don_hang();
+            include "don-hang/list.php";
+            break;
 
 
             //khách hàng 
@@ -189,29 +187,6 @@ if (isset($_GET["act"])) {
             $_SESSION['kh'] = $listkh;
             include "khach-hang/list.php";
             break;
-
-
-
-
-
-
-
-
-
-
-
-
-            // thống kê
-        case 'tk':
-            $listtk = thong_ke_hang_hoa();
-            include "thong-ke/list.php";
-            break;
-        case 'bdtk':
-            $listtk = thong_ke_hang_hoa();
-            include "thong-ke/bieudo.php";
-            break;
-
-
 
 
         default:

@@ -12,8 +12,8 @@
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
-  
-    
+
+
 </head>
 
 <body class="sb-nav-fixed">
@@ -75,10 +75,7 @@
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             ĐƠN HÀNG
                         </a>
-                        <!-- <a class="nav-link" href="index.php?act=tk">
-                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                            THỐNG KÊ
-                        </a> -->
+
                     </div>
                 </div>
 
