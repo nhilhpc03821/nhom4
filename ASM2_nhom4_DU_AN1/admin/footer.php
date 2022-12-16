@@ -16,12 +16,9 @@
             console.error(error);
         });
 
-    $(document).ready(function() {
-        $('#don_hang').DataTable();
-    });
-    $(document).ready(function() {
-        $('#khach_hang').DataTable();
-    });
+    $(document).ready( function () {
+$('#don_hang').DataTable();
+} );
 </script>
 </body>
 

@@ -98,7 +98,7 @@ if (isset($_GET["act"])) {
             $don_hang = danh_sach_don_hang();
             include "don-hang/list.php";
             break;
-    
+
         case 'xoahh':
             if (isset($_GET['mahh']) && ($_GET['mahh'] > 0)) {
                 delete_hang_hoa($_GET['mahh']);
@@ -141,7 +141,7 @@ if (isset($_GET["act"])) {
 
 
             //khách hàng 
-        case 'dskh':
+        case 'listkh':
             $listkh = listkh();
             $_SESSION['kh'] = $listkh;
             include "khach-hang/list.php";
