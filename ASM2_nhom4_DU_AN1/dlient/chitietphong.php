@@ -38,17 +38,9 @@ $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
 
 
   <!-- js -->
-  <div class="img">
-    <center>
+  <div class="img" style="text-align:center">
       <img id="img" class="baner_anh" onclick="changeImage()" src="../asset/dlient/img/banner_1.jpg  " width="1300px" height="450px">
-    </center>
-    <img>
   </div>
-
-
-
-
-
   <hr class="thanh_ngang">
 
   <div class="wrapper thong-tin-phong">
@@ -61,14 +53,10 @@ $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
     <div class="product-info">
       <div class="product-text">
         <h1><?= $thong_tin_phong['ten_hh'] ?></h1>
-
       </div>
       <div class="product-price-btn"><br /><br /><br />
         <p><span>GIÁ: <?= number_format($thong_tin_phong['don_gia'], 3, ',', '.') ?> </span> VNĐ/đêm</p>
-        <form action="xuli-donhang.php?id=<?= $thong_tin_phong['ma_hh'] ?>" method="post">
-          <input type="hidden">
-          <button>Đặt Phòng</button>
-        </form>
+        <button data-toggle="modal" data-target="#exampleModal">Đặt Phòng</button>
       </div>
     </div>
     <div class="mo-ta-phong">
@@ -79,11 +67,53 @@ $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
     <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div> -->
   </div>
 
-
-  </center>
-
-
-
+<!-- Modal -->
+<form action="xuli-donhang.php" method="POST">
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ĐẶT PHÒNG</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <div class="form-group">
+          <label for="ten_khach_hang">Tên của bạn: </label>
+          <input type="text" name="ten_khach_hang" class="form-control" id="ten_khach_hang" placeholder="Vui lòng nhập họ tên của bạn!">
+        </div>
+        <div class="form-group">
+          <label for="email">Email của bạn: </label>
+          <input type="email" name="email" class="form-control" id="email" placeholder="Vui lòng nhập email của bạn!">
+        </div>
+        <div class="form-group">
+          <label for="so_dien_thoai">Số điện thoại</label>
+          <input type="text" name="so_dien_thoai" class="form-control" id="so_dien_thoai" placeholder="Vui lòng nhập điện thoại của bạn!">
+        </div>
+        <div class="form-group">
+          <label for="ngay_dat_phong">Ngày đặt</label>
+          <input type="date" name="ngay_dat_phong" value="<?= date('Y-m-d') ?>" class="form-control" id="ngay_dat_phong"  placeholder="Vui lòng nhập ngày đặt phòng của bạn!">
+        </div>
+        <div class="form-group">
+          <label for="so_nguoi">Số người</label>
+          <input type="number" min="1" name="so_nguoi" class="form-control" id="so_nguoi"  placeholder="Vui lòng nhập số người!">
+        </div>
+        <div class="form-group">
+          <label for="so_luong_phong">Số người</label>
+          <input type="number" min="1" name="so_luong_phong" class="form-control" id="so_luong_phong" placeholder="Vui lòng số lượng phòng">
+        </div>
+        <input type="hidden" name="ma_hh" value="<?=$_GET['id'] ?>">
+        <input type="hidden" name="gia" value="<?=$thong_tin_phong['don_gia'] ?>">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">HUỶ BỎ</button>
+          <button type="submit" class="btn btn-primary">ĐẶT NGAY</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
 
   <?php
   require_once('../asset/dlient/page/footer.php')
