@@ -51,4 +51,11 @@ function UPDATE_mk($makh, $passnew)
     $sql = "UPDATE khach_hang set mat_khau ='$passnew' where ma_kh ='$makh'";
     pdo_execute($sql);
 }
+
+
+function UPDATE_vaitro($makh, $vaitro)
+{
+    $sql = "UPDATE khach_hang set vai_tro ='$vaitro' where ma_kh ='$makh'";
+    pdo_execute($sql);
+}
 ?>

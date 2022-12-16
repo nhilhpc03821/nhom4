@@ -1,44 +1,42 @@
 <div id="layoutSidenav_content">
   <main>
     <div class="container-fluid px-4">
-      <h1 class="mt-4">Khách hàng - danh sách</h1>
+      <h1 class="mt-4">Danh Sách Khách Hàng</h1>
       <div class="card mb-4">
         <div class="card-body">
-
-
-
-
-
-
           <div class="row mb10">
-            <table class="table table-bordered">
-              <tr>
-                <th></th>
-                <th>Mã khách hàng</th>
-                <th>Tên khách hàng</th>
-                <th>Kích hoạt</th>
-                <th>Hình</th>
-                <th>Email</th>
-                <th>Vai trò</th>
-                <th>Actions</th>
-              </tr>
+            <table id="khach_hang" class="table table-bordered">
+              <thead>
 
-              <?php
-              foreach ($_SESSION['kh'] as $kh) {
-                extract($kh);
 
-                $suakh = "index.php?act=suakh&makh=" . $ma_kh;
-                $xoakh = "index.php?act=xoakh&makh=" . $ma_kh;
-                $hinhpath = "../upload/" . $hinh;
-                if (is_file($hinhpath)) {
-                  $hinh = "<img src='" . $hinhpath . "' height='60'>";
-                } else {
-                  $hinh = "ko tìm thấy ảnh";
-                }
+                <tr>
 
-                echo '
+                  <th>Mã khách hàng</th>
+                  <th>Tên khách hàng</th>
+                  <th>Kích hoạt</th>
+                  <th>Hình</th>
+                  <th>Email</th>
+                  <th>Vai trò</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php
+                foreach ($_SESSION['kh'] as $kh) {
+                  extract($kh);
+
+                  $suakh = "index.php?act=suakh&makh=" . $ma_kh;
+                  $xoakh = "index.php?act=xoakh&makh=" . $ma_kh;
+                  $hinhpath = "../upload/" . $hinh;
+                  if (is_file($hinhpath)) {
+                    $hinh = "<img src='" . $hinhpath . "' height='60'>";
+                  } else {
+                    $hinh = "ko tìm thấy ảnh";
+                  }
+
+                  echo '
           <tr>
-          <td><input type="checkbox"></td>
+        
           <td>' . $ma_kh . '</td>
           <td>' . $ho_ten . '</td>
           <td>' . $kich_hoat . '</td>
@@ -52,9 +50,9 @@
           </td>
           </tr>
           ';
-              }
-              ?>
-
+                }
+                ?>
+              </tbody>
             </table>
 
 
@@ -62,10 +60,6 @@
 
 
         </div>
-        <form action="" class="mt">
-          <input type="button" value="chọn tất cả">
-          <input type="button" value="bỏ chọn tất cả">
-          <input type="button" value="xóa các mục đã chọn">
-        </form>
+
   </main>
 </div>
