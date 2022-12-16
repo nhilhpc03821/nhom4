@@ -7,7 +7,7 @@ include "../dao/hang-hoa.php";
 include "../dao/khach-hang.php";
 include "../dao/binh-luan.php";
 include "../dao/thong-ke.php";
-
+include "../dao/don-hang.php";
 //controller
 if (isset($_GET["act"])) {
     $act = $_GET["act"];
@@ -94,7 +94,11 @@ if (isset($_GET["act"])) {
             $listhh = load_listhh($kw, $maloai);
             include "hang-hoa/list.php";
             break;
-
+        case 'listdh':
+            $don_hang = danh_sach_don_hang();
+            include "don-hang/list.php";
+            break;
+    
         case 'xoahh':
             if (isset($_GET['mahh']) && ($_GET['mahh'] > 0)) {
                 delete_hang_hoa($_GET['mahh']);
@@ -132,16 +136,6 @@ if (isset($_GET["act"])) {
             $listhh = load_listhh("", 0);
             include 'hang-hoa/list.php';
             break;
-
-
-
-
-
-
-
-
-
-
 
 
 

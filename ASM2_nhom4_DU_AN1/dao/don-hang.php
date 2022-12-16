@@ -31,3 +31,14 @@ $gia){
     }
 }
 
+function danh_sach_don_hang(){
+    $kw = "";
+    $sql = "SELECT * from don_hang WHERE 1 ";
+    if ($kw != "") {
+        $sql .= " AND ten_hh like '%" . $kw . "%'";
+    }
+    
+    $sql .= " ORDER BY id";
+    $don_hang = pdo_query($sql);
+    return $don_hang;
+}
