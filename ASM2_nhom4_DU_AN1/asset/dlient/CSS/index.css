@@ -27,12 +27,12 @@
   height: 100%;
   object-fit: cover;
 }
-div.gallery {
+/* div.gallery {
   border: 1px solid rgb(204, 204, 204);
-}
-div.gallery:hover {
+} */
+/* div.gallery:hover {
   border: 1px solid #777;
-}
+} */
 
 div.gallery img {
   width: 100%;
@@ -67,4 +67,41 @@ div.desc {
 
 .tieu-de {
   text-transform: uppercase;
+  margin: 15px 0 30px 0;
+}
+
+.so-luoc {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.so-luoc .so-luoc-noi-dung {
+  flex-basis: calc(100% / 3 - 7.5px);
+  margin-bottom: 15px;
+  padding: 0 7px;
+}
+
+.so-luoc .so-luoc-noi-dung .hinh-anh {
+  width: 100%;
+  height: 500px;
+}
+.so-luoc .so-luoc-noi-dung .hinh-anh img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.so-luoc .so-luoc-noi-dung .chi-tiet-noi-dung {
+  margin-top: 30px;
+}
+
+.sap-ra-mat {
+  width: 500px;
+  margin-bottom: 10px;
+}
+.sap-ra-mat img {
+  width: 400px;
+  display: flex;
+  margin: auto;
 }
