@@ -17,6 +17,7 @@ $listloai = load_list();
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Trang Chu </title>
+  <link rel="shortcut icon" type="image/png" href="../asset/dlient/img/icon/avt.png" />
 
   <script src="../asset/dlient/JS/index.js"></script>
 
@@ -46,7 +47,7 @@ $listloai = load_list();
 
 
   <div class="banner text-center" style="margin-top: 78px;">
-    <img id="img" class="baner_anh" onclick="changeImage()" src="../asset/dlient/img/banner_1.jpg  " width="100%" height="700px">
+    <img id="img" class="baner_anh" onclick="changeImage()" src="../asset/dlient/img/banner_1.jpg  " width="100%" height="100%">
 
     <img src="../asset/dlient/img/icon/avt.png">
   </div>
@@ -82,8 +83,8 @@ $listloai = load_list();
 
       if (!empty($danh_sach_phong)) :
   ?>
-        <hr class="sep-2" />
-        <h2 class="tieu-de text-center"><?= $loai_phong['ten_loai'] ?> </h2>
+
+        <div class="tieu-de  container"><b> <?= $loai_phong['ten_loai'] ?></b> </div>
 
 
 
@@ -118,121 +119,112 @@ $listloai = load_list();
 
 
 
-    <hr class="sep-2" />
-    <h2 class="chu_02 text-center"> Phòng Tổng Thống Sắp Có Tại Khách Sạn</h2>
+    <div class="tieu-de  container"><b>loại hình sắp ra mắt</b></div>
 
 
 
     <div class="container">
 
 
-      <h3 class="chu_1">Phòng Tổng Thống VIP1
-        </h2>
+      <h5>Home Stay</h5>
 
-        <img class="sticky" src="../asset/dlient/img/phonh_tongthong.jpg" alt="Avatar" width="400px">
-        <p class="chu_2">Phòng Tổng Thống VIP1 có diện tích rộng đến 313m², giá một đêm là 15.000
-          đô-la Mỹ (khoảng gần 340 triệu đồng, chưa bao gồm VAT)gồm có 2 phòng ngủ, một phòng ăn, một phòng khách cà một phòng làm việc riêng.<br />
-          Hầu hết nội thất trong phòng đều được chế tác từ những vật liệu xa xỉ như vàng, cẩm thạch, đá quý...theo phong cách quý tộc. Ngoài ra,
-          nội thất tại đây đều được trang bị từ những thương hiệu nội thất danh tiếng đến từ Italia như: Colombostile, Baldi Home Art, VG New Trend.
-        </p>
-    </div>
-
-    <div class="container">
-      <br />
-
-      <h2 class="chu_1">Phòng Tổng Thống VIP2</h2>
-      <img class="sticky" src="../asset/dlient/img/phong_tong_thong_2.jpg" alt="Avatar" width="400px">
+      <div class="sap-ra-mat text-center">
+        <img class="sticky" src="../asset/dlient/img/phonh_tongthong.jpg" alt="Avatar">
+        <i>Dự kiến ra mắt vào tháng 6/ 2023</i>
+      </div>
 
 
-      <p class="chu_2">Phòng Tổng Thống VIP2 căn phòng có 4 phòng ngủ, 5 phòng tắm, phòng Tổng thống tại
-        khách sạnCăn phòng có diện tích lên tới 1.000m2 này khiến ai nghe qua đều cảm thấy choáng váng về
-        quy mô, không gian này đã vượt xa diện tích nhiều phòng President Suite đẳng cấp tại Việt Nam, thông
-        thường chỉ tầm khoảng 200 - 400m2.
-        <br />
-        Đặc biệt, căn phòng President Suite là sự lựa chọn hoàn hảo đến từng centimet cho những vị khách có mong
-        muốn thưởng thức trọn vẹn bức tranh màu xanh ngọc bích của thiên nhiên vịnh Hạ Long dưới góc nhìn 360 độ.
+      <p class="chu_2">Home Stay có diện tích rộng đến 313m², nạn có thể thuê với giá một ngày 1 triệu VND hoặc tuần với giá 5 triệu VND
+        gồm có 2 phòng ngủ, một phòng ăn, một phòng khách và một phòng làm việc riêng.<br />
+        Hầu hết nội thất trong phòng đều được chế tác từ những vật liệu cao cấp với chất lượng tốt nhất theo phong tiêu chuẩn 4- 5 sao với tất cả
+        nội thất tại đây đều được trang bị từ những thương hiệu nội thất danh tiếng đến từ Italia như: Colombostile, Baldi Home Art, VG New Trend...
       </p>
     </div>
 
     <div class="container">
       <br />
-      <h2 class="chu_1">Phòng Tổng Thống VIP3</h2>
-      <img class="sticky" src="../asset/dlient/img/phong_tong_thong_3.jpg" alt="Avatar" width="300px">
 
+      <h5>Bể Bơi</h5>
+      <div class="sap-ra-mat text-center">
+        <img class="sticky" src="../asset/dlient/img/be-boi.jpeg  " alt="Avatar">
+        <i>Dự kiến ra mắt vào cuối năm 2023</i>
+      </div>
+
+      <p class="chu_2">Nhằm phục vụ nhu cầu của khách hàng, chúng tôi đã tạo ra <b>bể bơi </b>tại trung tâm hoặc mặt sau của khách sạn để quý khách có thể thư giản hoặc
+        tổ chức các loại hình giải trí khác ...
+      </p>
+    </div>
+
+    <div class="container">
+      <br />
+      <h5>Phòng Mới</h5>
+      <div class="sap-ra-mat text-center">
+        <img class="sticky" src="../asset/dlient/img/phong_tong_thong_3.jpg  " alt="Avatar">
+        <i>Dự kiến ra mắt vào cuối năm 2023</i>
+      </div>
       <p class="chu_2">
-        Phòng Tổng Thống VIP3 có tất cả 8 gian phòng riêng biệt, 3 tivi lớn 47 inch cùng hệ thống âm thanh hiện đại. Riêng
+        Phòng có không gian phòng đặc biệt, 2 tivi lớn 47 inch cùng hệ thống âm thanh hiện đại. Riêng
         phòng khách đã chiếm trọn gần một nửa tổng diện tích sử dụng chung.
         <br />
         Những món đồ decor trong phòng thường mang đậm dấu ấn của văn hóa truyền thống Việt Nam với 3 gam màu chủ đạo là trắng,
-        đen và nâu đỏ sang trọng. Với mức giá 7.000 USD mỗi đêm, J.W Marriott hiện là khách sạn có giá
+        đen và nâu đỏ sang trọng. Với mức giá<b>1,2 tr/đêm 6 tr/đêm 10tr/tháng</b>, J.W Marriott hiện là khách sạn có giá
         phòng Tổng thống cao nhất Hà Nội.
 
 
       </p>
     </div>
 
-    <div class="container">
-      <br />
-      <h2 class="chu_1">Phòng Tổng Thống VIP4</h2>
-      <img class="sticky" src="../asset/dlient/img/phong_tong_thong_4.jpg" alt="Avatar" width="300px">
-
-      <p class="chu_2">
-        Phòng Tổng Thống VIP4 có diện tích gần 200 m2/phòng và được cung cấp những tiện nghi đắt tiền, hiện đại. Căn phòng là sự pha
-        trộn hài hòa giữa kiến trúc Phương Tây và văn hóa Phương Đông mang lại không gian thoáng và có cửa kính
-        lớn giúp các thượng khách dễ dàng chiêm ngưỡng quan cảnh Hồ Tây lãng mạn.
-        <br />
-        Loại phòng này có cung cấp phòng khách, phòng ăn, phòng làm việc và một phòng nhỏ khác dành cho lực lượng
-        cận vệ, thư ký. Bên phải của phòng khách là phòng ngủ được thông với phòng tắm bao gồm tất cả các thiết bị
-        hiện đại và mới nhất hiện nay.
-      </p>
-    </div>
 
 
-    <hr class="sep-2" />
-    <h2 class="chu_01 text-center"> Giới Thiệu sơ lược về Khách sạn</h2>
+
+    <div class="tieu-de  container"><b>sơ lược về Khách sạn</b></div>
 
 
-    <div class="container text-center text-md-left">
-      <div class="row text-center text-md-left">
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <div class="card">
-            <img src="../asset/dlient/img/gioi_thieu3.jpg" alt="Jane">
-            <div class="container">
-              <h2> Khách sạn The UNIVERSE</h2>
-              <p>Với chất lượng chính hãng của máy pha cafe các khách hàng có thể an tâm
-                thưởng thức, có giấy chứng nhận và có thể quét mã để quý khách an tâm khi
-                thưởng thức dồ uống tại quán</p>
 
-            </div>
-          </div>
+    <div class="so-luoc">
+
+      <div class="so-luoc-noi-dung container">
+
+        <div class="hinh-anh">
+          <img src="../asset/dlient/img/gioi_thieu3.jpg" alt="Jane">
+
         </div>
-
-
-        <div class="col-md-5 col-lg-3 col-xl-3 mx-auto mt-3">
-          <div class="card">
-            <img src="../asset/dlient/img/gioi_thieu4.jpg" alt="Mike">
-            <div class="container">
-              <h2>Không gian bên trong của khách sạn </h2>
-
-              <p>Mang Phong cách Hàn Quốc không gian nhẹ nhàng yên tĩnh cùng nhiều góc
-                chụp sống ảo đẹp và bạn như chìm vào chuỗi ngày bình yên mà quên hết đi
-                những mệt mỏi, bon chen thường nhật</p>
-
-            </div>
-          </div>
+        <div class="chi-tiet-noi-dung">
+          <h4> Vị Trí Đắc Địa</h4>
+          <p> Tọa lạc tại vị trí đắc địa của trung tâm thành phố với hai mặt tiền tiếp giáp hai dòng sông
+            Cần Thơ và sông Hậu hiền hòa, ngay cạnh khuôn viên Bến Ninh Kiều thơ mộng và cầu đi bộ lộng lẫy về đêm,
+            gần các siêu thị, trung tâm mua sắm hiện đại, bảo tàng thành phố và khu công viên cây xanh chỉ với 15 phút đi bộ.</p>
         </div>
+      </div>
 
-        <div class="col-md-5 col-lg-3 col-xl-3 mx-auto mt-3">
-          <div class="card">
-            <img src="../asset/dlient/img/nhan_vien_1.jpg" alt="John">
+      <div class="so-luoc-noi-dung container">
 
-            <h2> Nguyên Liệu sạch</h2>
-            <p>Nguyên liệu dùng để làm bánh và pha chế nước uống tại quán có nguồn góc
-              rõ ràng không có chất bảo quản , đảm bảo an toàn vệ sinh thực phẩm</p>
-          </div>
+        <div class="hinh-anh">
+          <img src="../asset/dlient/img/gioi_thieu4.jpg" alt="Jane">
+        </div>
+        <div class="chi-tiet-noi-dung ">
+          <h4>Không Gian Khách Sạn </h4>
+          <p>Mang Phong cách Hàn Quốc không gian nhẹ nhàng yên tĩnh cùng nhiều góc
+            chụp sống ảo đẹp và bạn như chìm vào chuỗi ngày bình yên mà quên hết đi
+            những mệt mỏi, bon chen thường nhật</p>
+        </div>
+      </div>
+
+
+      <div class="so-luoc-noi-dung container">
+        <div class="hinh-anh">
+          <img src="../asset/dlient/img/nhan_vien_1.jpg" alt="John">
+
+        </div>
+        <div class="chi-tiet-noi-dung">
+          <h4> Nguyên Liệu Sạch</h4>
+          <p>Nguyên liệu dùng để làm bánh và pha chế nước uống tại quán có nguồn góc
+            rõ ràng không có chất bảo quản , đảm bảo an toàn vệ sinh thực phẩm</p>
         </div>
       </div>
     </div>
+
+
 
 
 

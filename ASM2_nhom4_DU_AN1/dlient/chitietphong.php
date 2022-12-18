@@ -41,7 +41,8 @@ $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
   <div class="img" style="text-align:center">
     <img id="img" class="baner_anh" onclick="changeImage()" src="../asset/dlient/img/banner_1.jpg  " width="1300px" height="450px">
   </div>
-  <hr class="thanh_ngang">
+
+  <hr class="sep-2" />
 
   <div class="wrapper thong-tin-phong">
 
@@ -54,12 +55,13 @@ $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
       <div class="product-text">
         <h1><?= $thong_tin_phong['ten_hh'] ?></h1>
       </div>
-      <div class="product-price-btn"><br /><br /><br />
+      <div class="product-price-btn">
         <p><span>GIÁ: <?= number_format($thong_tin_phong['don_gia'], 3, ',', '.') ?> VNĐ/đêm</span> </p>
         <button data-toggle="modal" data-target="#exampleModal">Đặt Phòng</button>
       </div>
     </div>
     <div class="mo-ta-phong">
+      <h3>Mô Tả</h3>
       <?= $thong_tin_phong['mo_ta'] ?>
     </div>
     <div id="fb-root"></div>
