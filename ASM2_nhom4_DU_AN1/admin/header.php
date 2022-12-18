@@ -75,6 +75,10 @@
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             ĐƠN HÀNG
                         </a>
+                        <a class="nav-link" href="index.php?act=listlh">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            LIÊN HỆ
+                        </a>
 
                     </div>
                 </div>

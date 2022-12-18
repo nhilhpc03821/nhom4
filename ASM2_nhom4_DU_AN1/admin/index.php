@@ -6,6 +6,7 @@ include "../dao/loai.php";
 include "../dao/hang-hoa.php";
 include "../dao/khach-hang.php";
 include "../dao/don-hang.php";
+include "../dao/lien-he.php";
 //controller
 if (isset($_GET["act"])) {
     $act = $_GET["act"];
@@ -135,6 +136,12 @@ if (isset($_GET["act"])) {
         case 'listdh':
             $don_hang = danh_sach_don_hang();
             include "don-hang/list.php";
+            break;
+
+            //liên hệ
+        case 'listlh':
+            $lien_he = danh_sach_lien_he();
+            include "lien-he/list.php";
             break;
 
 

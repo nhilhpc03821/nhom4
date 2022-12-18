@@ -32,23 +32,25 @@
 
             <!-- Left contact page -->
 
-            <form id="contact-form" class="form-horizontal" role="form">
+            <form id="contact-form" class="form-horizontal" role="form" action="xuli-LienHe.php" method="POST">
 
                <div class="form-group">
                   <div class="col-sm-12">
-                     <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                     <label for="ten_khach_hang"> Tên của bạn</label>
+                     <input type="text" class="form-control" id="ten_khach_hang" placeholder="Tên của bạn" name="name" value="" required>
                   </div>
                </div>
 
                <div class="form-group">
                   <div class="col-sm-12">
-                     <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                     <label for="email"> Email</label>
+                     <input type="email" class="form-control" id="email" placeholder="Email của bạn" name="email" value="" required>
                   </div>
 
                </div>
                <div class="form-group">
-
-                  <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                  <label for="noi_dung">Nội Dung</label>
+                  <textarea class="form-control" rows="10" placeholder="Nội Dung" name="noi_dung" required></textarea>
 
                </div>
 
