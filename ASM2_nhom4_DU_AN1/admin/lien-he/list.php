@@ -6,13 +6,14 @@
                 <div class="card-body">
 
                     <div class="row mb10">
-                        <table id="" class="table table-bordered">
+                        <table id="lien-he" class="table table-bordered">
                             <thead>
                                 <tr>
-                                    <th>ID</th>
+
                                     <th>Tên khách hàng</th>
                                     <th>Email</th>
                                     <th>Nội Dung</th>
+                                    <th>ID</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -20,11 +21,11 @@
                                 if (!empty($lien_he)) :
                                     foreach ($lien_he as $lh) : ?>
                                         <tr>
-                                            <td><?= $lh['id'] ?></td>
+
                                             <td><?= $lh['ten_khach_hang'] ?></td>
                                             <td><?= $lh['email'] ?></td>
                                             <td><?= $lh['noi_dung'] ?></td>
-                                            <td> <button>Xóa</button> </td>
+                                            <td><?= $lh['id'] ?></td>
                                         </tr>
                                 <?php endforeach;
                                 endif;

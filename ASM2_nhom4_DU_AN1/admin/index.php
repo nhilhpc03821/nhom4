@@ -144,6 +144,14 @@ if (isset($_GET["act"])) {
             include "lien-he/list.php";
             break;
 
+        case 'xoalh':
+            if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+                delete_khach_hang($_GET['id']);
+            }
+            $listkh = listkh();
+            $_SESSION['kh'] = $listkh;
+            include "lien-he/list.php";
+            break;
 
             //khách hàng 
         case 'listkh':

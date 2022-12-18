@@ -77,8 +77,8 @@ if (is_file($hinhpath)) {
 
             <div class="row mb10">
               <label for="editor">Mô tả</label>
-              <textarea name="motahh" id="editor" cols="30" rows="10">
-              <?php echo $mo_ta ?>
+              <!-- <textarea name="motahh" id="editor" cols="30" rows="10"> -->
+              <?php var_dump($mo_ta); ?>
               </textarea>
             </div>
             <br />

@@ -19,6 +19,10 @@
     $(document).ready(function() {
         $('#don_hang').DataTable();
     });
+
+    $(document).ready(function() {
+        $('#lien-he').DataTable();
+    });
 </script>
 </body>
 

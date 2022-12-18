@@ -18,13 +18,15 @@ function lien_he_moi(
 
 function danh_sach_lien_he()
 {
-    // $kw = "";
     $sql = "SELECT * from lien_he WHERE 1 ";
-    // if ($kw != "") {
-    //     $sql .= " AND ten_hh like '%" . $kw . "%'";
-    // }
-
     $sql .= " ORDER BY id";
     $lien_he = pdo_query($sql);
     return $lien_he;
+}
+
+
+function delete_lien_he($id)
+{
+    $sql = "DELETE from hang_hoa where ma_hh =" . $id;
+    pdo_execute($sql);
 }

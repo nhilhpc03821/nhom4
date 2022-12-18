@@ -55,7 +55,6 @@
           <td> ' . $ma_loai . '  </td>
           <td>' . number_format($don_gia) . '.000 VND' .  '</td>
           <td>' . $hinh . '</td>
-        
          
 
           <td>
