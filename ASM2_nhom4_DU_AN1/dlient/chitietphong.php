@@ -7,7 +7,7 @@ include "../dao/hang-hoa.php";
 if (isset($_GET['id'])) {
   $thong_tin_phong = load_onehh($_GET['id']);
 } else {
-  // header("location: index.php");
+  header("location: index.php");
 }
 $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
 ?>
@@ -55,7 +55,7 @@ $hinhpath = "../upload/" . $thong_tin_phong['hinh'];
         <h1><?= $thong_tin_phong['ten_hh'] ?></h1>
       </div>
       <div class="product-price-btn"><br /><br /><br />
-        <p><span>GIÁ: <?= number_format($thong_tin_phong['don_gia'], 3, ',', '.') ?> </span> VNĐ/đêm</p>
+        <p><span>GIÁ: <?= number_format($thong_tin_phong['don_gia'], 3, ',', '.') ?> VNĐ/đêm</span> </p>
         <button data-toggle="modal" data-target="#exampleModal">Đặt Phòng</button>
       </div>
     </div>

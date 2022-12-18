@@ -1,7 +1,6 @@
-
 <?php
-if(is_array($dm)){
-    extract($dm);
+if (is_array($dm)) {
+  extract($dm);
 }
 ?>
 
@@ -28,32 +27,29 @@ if(is_array($dm)){
             <div class=" mb10">
               Tên loại
               <br />
-              <input type="text"  name="tenloai" value="<?php echo $ten_loai  ?>"/>
+              <input type="text" name="tenloai" value="<?php echo $ten_loai  ?>" />
             </div>
             <br />
             <br />
             <input value="Cập nhật" type="submit" name="capnhat"></input>
             <button type="reset">Nhập lại</button>
             <button><a href="index.php?act=listloai" style="text-decoration: none;">Danh sách loại</a></button>
-        <?php
-    
-           if(isset($thongbao)&&($thongbao!="")){
-            echo "<br>". $thongbao;
-           }
-        
-        ?>
-        </form>
+            <?php
+
+            if (isset($thongbao) && ($thongbao != "")) {
+              echo "<br>" . $thongbao;
+            }
+
+            ?>
+          </form>
 
 
-        
 
-        
-  </div> 
+
+
+        </div>
       </div>
-      
+
     </div>
   </main>
 </div>
-
-
-  

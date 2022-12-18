@@ -55,9 +55,7 @@
 
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="GioHang.php"> Đơn Hàng</a>
-            </li>
+
         </ul>
 
     </div>

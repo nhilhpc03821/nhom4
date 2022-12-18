@@ -78,10 +78,12 @@ if (isset($_GET['loai'])) {
         <div class="san-pham">
           <div class="gallery">
             <div class="hinh-anh">
-              <a href="../dlient/chitietphong.php?id<?= $phong['ma_hh'] ?>">
+              <a href="../dlient/chitietphong.php?id=<?= $phong['ma_hh'] ?>">
                 <?php if ($hinhpath != '../upload/') : ?>
                   <img src="<?= $hinhpath ?>" alt="Cinque Terre">
                 <?php endif; ?>
+
+
               </a>
             </div>
             <div class="desc"><a href="../dlient/chitietphong.php"><b><?= $phong['ten_hh'] ?></b></a></div>
