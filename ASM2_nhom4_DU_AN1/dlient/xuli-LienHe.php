@@ -48,21 +48,7 @@ if (
         </div>
 
 
-        <tbody>
-            <tr>
-                <th><strong>Tên của bạn: </strong></th>
-                <td><?= $_POST['name'] ?></td>
-            </tr>
-            <tr>
-                <th scope="row"><strong>Email:</strong></th>
-                <td><?= $_POST['email'] ?></td>
-            </tr>
-            <tr>
-                <th scope="row"><strong>Nội dung</strong></th>
-                <td><?= $_POST['noi_dung'] ?></td>
-            </tr>
 
-        </tbody>
 
 
         <div class="container text-center" style=" margin-top: 50px;">

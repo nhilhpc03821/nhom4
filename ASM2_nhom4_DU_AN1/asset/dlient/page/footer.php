@@ -72,9 +72,9 @@
         <div class="row align-items-center">
 
             <div class="col-md-7 col-lg-8">
-                <p> Copyright ©2020 All rights reserved by:
+                <p> Nhóm 4 - Dự án 1 - FALL 2022 -
                     <a href="#" style="text-decoration: none;">
-                        <strong class="text-warning">Ngọc Hân hahahahahaha</strong>
+                        <strong class="text-warning">WE17302</strong>
                     </a>
                 </p>
 

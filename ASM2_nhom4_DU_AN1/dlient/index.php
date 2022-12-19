@@ -47,7 +47,7 @@ $listloai = load_list();
 
 
   <div class="banner text-center" style="margin-top: 78px;">
-    <img id="img" class="baner_anh" onclick="changeImage()" src="../asset/dlient/img/banner_1.jpg  " width="100%" height="100%">
+    <img id="img" class="baner_anh" onclick="changeImage()" src="../asset/dlient/img/banner_1.jpg  " width="100%" height="600px">
 
     <img src="../asset/dlient/img/icon/avt.png">
   </div>

@@ -17,7 +17,7 @@
                   <th>Email</th>
                   <th>Số điện thoại</th>
                   <th>Ngày đặt</th>
-                  <th></th>
+
                 </tr>
               </thead>
               <tbody>
@@ -34,7 +34,6 @@
                       <td><?= $dh['email'] ?></td>
                       <td>0<?= $dh['so_dien_thoai'] ?></td>
                       <td><?= $dh['ngay_dat_phong'] ?></td>
-                      <td> xóa </td>
                     </tr>
                 <?php endforeach;
                 endif;

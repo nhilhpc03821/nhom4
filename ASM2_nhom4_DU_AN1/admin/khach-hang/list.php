@@ -13,7 +13,7 @@
           <div class="row mb10">
             <table class="table table-bordered">
               <tr>
-                <th></th>
+
                 <th>Mã khách hàng</th>
                 <th>Tên khách hàng</th>
                 <th>Kích hoạt</th>
@@ -38,7 +38,7 @@
 
                 echo '
           <tr>
-          <td><input type="checkbox"></td>
+        
           <td>' . $ma_kh . '</td>
           <td>' . $ho_ten . '</td>
           <td>' . $kich_hoat . '</td>
@@ -62,10 +62,6 @@
 
 
         </div>
-        <form action="" class="mt">
-          <input type="button" value="chọn tất cả">
-          <input type="button" value="bỏ chọn tất cả">
-          <input type="button" value="xóa các mục đã chọn">
-        </form>
+
   </main>
 </div>
